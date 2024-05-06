@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1714930220.80782 "c:/Users/My/Desktop/II stopień 1 semestr/Metody numeryczne i optymalizacja/statystyka/numerical_methods/lab6/tex/raport6.tex" "raport6.pdf" "raport6" 1714930222.5181 0
+["pdflatex"] 1714984796.98483 "c:/Users/My/Desktop/II stopień 1 semestr/Metody numeryczne i optymalizacja/statystyka/numerical_methods/lab6/tex/raport6.tex" "raport6.pdf" "raport6" 1714984798.00968 0
   "C:/Users/My/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1714390467 86553 91af261fa287312f2fb1f66a097366be ""
   "C:/Users/My/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1710629312 24222817 f6edef0007f08a021f7411c4e438ad27 ""
   "D:/Programowanie/LATEX/fonts/enc/dvips/pl/plme.enc" 958947240 3126 59f33ff3e396436ebc36f4e7b444d5c4 ""
@@ -92,11 +92,11 @@
   "D:/Programowanie/LATEX/tex/latex/polski/polski.sty" 1630159173 13344 a993928ba746ec4e012bfd315bcc48d8 ""
   "D:/Programowanie/LATEX/tex/latex/tools/calc.sty" 1700599895 10214 547fd4d29642cb7c80bf54b49d447f01 ""
   "D:/Programowanie/LATEX/tex/latex/tools/indentfirst.sty" 1700599895 1618 c5f08dcf49a56107311a81073b35fa4e ""
-  "Simplex1.png" 1714930211 39557 eec67ff363f0f7ac7205c46bcee3e347 ""
-  "c:/Users/My/Desktop/II stopień 1 semestr/Metody numeryczne i optymalizacja/statystyka/numerical_methods/lab6/tex/raport6.tex" 1714930219 4253 58410e1908b4549083b6cebdc2a45964 ""
-  "raport6.aux" 1714930222 638 0a623374ff6b9d06abbf2f35811ffdc3 "pdflatex"
-  "raport6.tex" 1714930219 4253 58410e1908b4549083b6cebdc2a45964 ""
-  "raport6.toc" 1714930222 360 d14f0d888e1be7fc2536aed7f48a7544 "pdflatex"
+  "Simplex1.png" 1714984724 47501 952e8755af8f5fa51a66101b5e2542eb ""
+  "c:/Users/My/Desktop/II stopień 1 semestr/Metody numeryczne i optymalizacja/statystyka/numerical_methods/lab6/tex/raport6.tex" 1714984795 4332 e92769f07b5b1b42113ae4f3c68b5597 ""
+  "raport6.aux" 1714984797 638 6245c0507e28e3a563be6d96219d1fe6 "pdflatex"
+  "raport6.tex" 1714984795 4332 e92769f07b5b1b42113ae4f3c68b5597 ""
+  "raport6.toc" 1714984797 360 51d5c3da0e6b6627390c88c7bf6e4ee6 "pdflatex"
   (generated)
   "raport6.aux"
   "raport6.log"

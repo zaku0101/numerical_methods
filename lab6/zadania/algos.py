@@ -1,40 +1,36 @@
 import numpy as np
 
 
-def simplex (f ,A , b ) :
-    rows , cols = A . shape
-    tab = np.column_stack (( A , np . eye ( rows ) ,b ) )
-    f_mod = np.concatenate ((f , np . zeros ( rows +1) ) )# add zeros at end off to match dimensions
-    tab = np . vstack (( tab , f_mod ) )# add f at the bottom of tab
+def simplex(A, b, c):
+    m, n = A.shape
+    # Stwórz tablicę zera o wymiarach (m+1) x (n+m+1)
+    tableau = np.zeros((m + 1, n + m + 1))
+    tableau[:m, :n] = A
+    tableau[:m, -1] = b
+    tableau[-1, :n] = c
 
-    while True :
+    while min(tableau[-1, :-1]) < 0:
+        pivot_col = np.where(tableau[-1, :-1] < 0)[0][0]
+        ratios = tableau[:-1, -1] / tableau[:-1, pivot_col]
+        pivot_row = np.where(ratios == min(ratios))[0][0]
 
-        last_row = tab [ -1]
-        if min ( last_row [: len ( last_row ) -1]) >=0:# check main loop condition
-            break
-     # choosing the column with most negative end - row entry
-    min_index_c = np . argmin ( last_row [0: len ( f ) ])# first part of last row that is actualy important
-    # min_value_c = last_row [ min_index_c ]
-    ratios = tab [0: rows , -1]/ tab [0: rows , min_index_c ]
-    for i in range (0 , rows ) : # removing ratios corresponding to tab (1:r, min_index_c ) <= 0
-        if tab [i , min_index_c ] <= 0:
-            ratios [ i ] = 0
-    min_ratio = min ( i for i in ratios if i > 0)# finding min ratio which is >0
-    min_ratio_index = np . argwhere ( ratios == min_ratio )
+        # Wykonaj operacje pivot
+        pivot_element = tableau[pivot_row, pivot_col]
+        tableau[pivot_row, :] /= pivot_element
+        for i in range(m + 1):
+            if i != pivot_row:
+                tableau[i, :] -= tableau[i, pivot_col] * tableau[pivot_row, :]
 
-    tab [ min_ratio_index ,:]= tab [ min_ratio_index ,]/ tab [min_ratio_index , min_index_c ]
-    for i in range ( rows +1) :
-        if i != min_ratio_index :
-            tab [i ,] = tab [i ,] - tab [i , min_index_c ] * tab [min_ratio_index ,] # print (tab ,"\ n")
-    x_final = np . zeros ( cols )
-    tab_rows , tab_cols = tab . shape
-    x_final = np . zeros ( cols )
-    n = np . zeros ( cols )
-    for i in range ( cols ) :
-        v = tab [ np . nonzero ( tab [0: tab_rows , i ]) , i ]
-        if( v . size == 1) :
-            if( v == 1) :
-                finding = np . argwhere ( tab [: , i ] ,)
-                print (" find ", finding )
-                x_final [ i ] = tab [ finding [0] , -1]
-    return tab , x_final
+    # Sprawdź czy rozwiązanie jest nieograniczone
+    if min(tableau[-1, :-1]) < 0:
+        return None, None
+
+    # Pobierz rozwiązanie i wartość funkcji celu
+    solution = {f'x{i + 1}': 0 for i in range(n)}
+    for i in range(m):
+        if np.count_nonzero(tableau[i, :-1]) == 1 and tableau[i, -1] != 0:
+            col = np.where(tableau[i, :-1] != 0)[0][0]
+            solution[f'x{col + 1}'] = tableau[i, -1]
+    objective_value = -tableau[-1, -1]
+
+    return solution, objective_value
