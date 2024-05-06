@@ -1,23 +1,24 @@
-from pulp import *
+from pulp import LpMinimize, LpProblem, LpVariable, lpSum, value
 
-# Definicja problemu
-problem = LpProblem("Zrównoważona normalna dieta")
+# Inicjalizacja problemu
+prob = LpProblem("Diet Problem", LpMinimize)
 
-# Zmienne decyzyjne
-x = LpVariable("x", lowBound=0)
-y = LpVariable("y", lowBound=0)
+# Definicja zmiennych decyzyjnych (ilość sera i chleba do zakupu w kg)
+x1 = LpVariable("Sera_kg", lowBound=0)  # ilość sera w kg
+x2 = LpVariable("Chleba_kg", lowBound=0)  # ilość chleba w kg
 
-# Funkcja celu
-problem += 30 * x + 20 * y, LpMinimize
+# Definicja funkcji celu (minimalizacja kosztów)
+prob += 30 * x1 + 20 * x2, "Koszt"
 
-# Ograniczenia
-problem += 20 * x + 10 * y >= 60
-problem += 20 * x + 30 * y >= 120
+# Definicja ograniczeń dotyczących białka i węglowodanów
+prob += 20 * x1 + 10 * x2 >= 60, "Białko"
+prob += 20 * x1 + 30 * x2 >= 120, "Węglowodany"
 
 # Rozwiązanie problemu
-problem.solve()
+prob.solve()
 
 # Wyświetlenie wyników
-print("Ilość sera:", x.value())
-print("Ilość chleba:", y.value())
-print("Koszt diety:", problem.objective.value())
+print("Status:", prob.status)
+print("Koszt najbardziej ekonomicznej diety:", value(prob.objective), "zł")
+print("Ilość sera:", value(x1), "kg")
+print("Ilość chleba:", value(x2), "kg")

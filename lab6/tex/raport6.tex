@@ -2,13 +2,17 @@
 \usepackage{listings}
 \usepackage{color}
 \usepackage{amsmath}
+\usepackage{mathtools}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{caption}
+\usepackage{tabularx}
+\usepackage[export]{adjustbox}
 \usepackage{polski}
 \usepackage{indentfirst}
 \usepackage{graphicx}
 \usepackage{pdfpages}
+\usepackage{float}
 \usepackage{gauss}
 
 \DeclareCaptionType{equ}[][List of equations]
@@ -94,6 +98,54 @@ Następnie wyświetlono wszystkie proste na jednym wykresie.
     \caption*{Wykres.2.1. Zależność n-tej iteracji metody do błędu residualnego}
   \end{figure}
 \section{Zadanie nr. 2}
+Zrównoważona normalna dieta zakłada, że codziennie powinniśmy spożywać co 
+najmniej 60 gramów białka i co najmniej 120 gramów węglowodanów. Zakładamy, że 100 
+gram sera zawiera 20 gramy białka i 20 gramy węglowodanów, natomiast taka sama ilość 
+chleba zawiera 10 gram białka i 30 gramy węglowodanów. Proszę wyznaczyć najbardziej 
+ekonomiczną dietę przy założeniu, że cena sera wynosi 30 zł/kg, a chleba 20 zł/kg.\\
+
+Kod realizujący zadanie:
+\begin{lstlisting}
+  from pulp import *
+
+  # Definicja problemu
+  problem = LpProblem("Zrównoważona normalna dieta")
+  
+  # Zmienne decyzyjne
+  x = LpVariable("x", lowBound=0)
+  y = LpVariable("y", lowBound=0)
+  
+  # Funkcja celu
+  problem += 30 * x + 20 * y, LpMinimize
+  
+  # Ograniczenia
+  problem += 20 * x + 10 * y >= 60
+  problem += 20 * x + 30 * y >= 120
+  
+  # Rozwiązanie problemu
+  problem.solve()
+  
+  # Wyświetlenie wyników
+  print("Ilość sera:", x.value())
+  print("Ilość chleba:", y.value())
+  print("Koszt diety:", problem.objective.value())
+\end{lstlisting}
+
+
+Wyniki obliczeń przedstawiono w formie tabeli:
+
+\begin{tabularx}{0.8\textwidth} { 
+  | >{\raggedright\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  | >{\raggedleft\arraybackslash}X | }
+ \hline
+ Ilość sera & 1,5 kg  \\
+ \hline
+ Ilość chleba  & 3 kg  \\
+ \hline
+ Koszt diety  & 105 zł  \\
+\hline
+\end{tabularx}
 
 \section{Zadanie nr. 3}
 
@@ -123,6 +175,60 @@ benzyny na każdy litr oleju opałowego, a ograniczenie zapotrzebowania na benzy
     \end{cases}
 \end{equation}
 \section{Zadanie nr. 5}
+Załóżmy, że mamy do zainwestowania 12 000 USD i trzy różne fundusze do 
+wyboru. Fundusz obligacji komunalnych ma stopę zwrotu 7\%, lokata bankowa ma stopę zwrotu 
+8\%, a konto wysokiego ryzyka ma oczekiwaną (spodziewaną) stopę zwrotu 12\%. Aby 
+zminimalizować ryzyko, postanawiasz nie inwestować więcej niż 2000 USD na koncie 
+wysokiego ryzyka. Ze względów podatkowych musisz zainwestować co najmniej trzy razy 
+więcej w obligacje komunalne niż w lokatę bankową. Zakładając, że zyski na koniec roku będą 
+zgodne z oczekiwaniami, jakie są optymalne kwoty inwestycji?
+
+Kod realizujący zadanie:
+\begin{lstlisting}
+  import pulp
+
+# Inicjalizacja problemu
+prob = pulp.LpProblem("Maximize Returns", pulp.LpMaximize)
+
+# Zmienne decyzyjne
+x1 = pulp.LpVariable("Obligacje", lowBound=0)  # Inwestycja w fundusz obligacji
+x2 = pulp.LpVariable("Depozyt", lowBound=0)  # Inwestycja w lokatę bankową
+x3 = pulp.LpVariable("Wysokie ryzyko", lowBound=0, upBound=2000)  # Inwestycja w konto wysokiego ryzyka
+
+# Funkcja celu - maksymalizacja zwrotów
+prob += 0.07 * x1 + 0.08 * x2 + 0.12 * x3, "Total_Returns"
+
+# Ograniczenia
+prob += x1 >= 3 * x2  # Inwestycja w obligacje komunalne musi być co najmniej trzy razy większa niż w lokatę bankową
+prob += x1 + x2 + x3 <= 12000  # Suma inwestycji nie może przekroczyć 12000 USD
+
+# Rozwiązanie problemu
+prob.solve()
+
+# Wyświetlenie wyników
+print("Optymalne kwoty:")
+for v in prob.variables():
+    print(v.name, "=", "${:,.2f}".format(v.varValue))
+
+print("Szacowana stopa zwrotu = ${:,.2f}".format(pulp.value(prob.objective)))
+\end{lstlisting}
+
+Wyniki obliczeń przedstawiono w formie tabeli:
+
+\begin{tabularx}{0.8\textwidth} { 
+  | >{\raggedright\arraybackslash}X 
+  | >{\centering\arraybackslash}X 
+  | >{\raggedleft\arraybackslash}X | }
+ \hline
+ Depozyt & 2500 \$  \\
+ \hline
+ Obligacje  & 7500 \$  \\
+ \hline
+ Wysokie ryzyko  & 2000 \$  \\
+\hline
+Szacowana stopa zwrotu  & 965 \$  \\
+\hline
+\end{tabularx}
 
 \section{Zadanie nr. 6}
 
