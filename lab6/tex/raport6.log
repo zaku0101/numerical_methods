@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.16)  6 MAY 2024 10:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.16)  6 MAY 2024 12:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -394,50 +394,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--80
 <Simplex1.png, id=20, 803.0pt x 602.25pt>
 File: Simplex1.png Graphic file (type png)
 <use Simplex1.png>
-Package pdftex.def Info: Simplex1.png  used on input line 91.
+Package pdftex.def Info: Simplex1.png  used on input line 100.
 (pdftex.def)             Requested size: 401.49902pt x 301.12425pt.
 
-Overfull \hbox (56.49902pt too wide) in paragraph at lines 91--94
+Overfull \hbox (56.49902pt too wide) in paragraph at lines 100--103
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 113--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--111
+Underfull \hbox (badness 10000) in paragraph at lines 126--134
 
  []
 
-[4 <./Simplex1.png (PNG copy)>]
+[4 <./Simplex1.png (PNG copy)>] [5]
 
 Package caption Warning: Unused \captionsetup[equ] on input line 15.
 See the caption package documentation for explanation.
 
 
-Package caption Warning: Unused \captionsetup[Tabela] on input line 93.
+Package caption Warning: Unused \captionsetup[Tabela] on input line 102.
 See the caption package documentation for explanation.
 
-[5] (raport6.aux)
+[6] (raport6.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7224 strings out of 474435
- 113531 string characters out of 5752260
- 1930190 words of memory out of 5000000
- 29450 multiletter control sequences out of 15000+600000
+ 7263 strings out of 474435
+ 113974 string characters out of 5752260
+ 1937190 words of memory out of 5000000
+ 29489 multiletter control sequences out of 15000+600000
  569688 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,7n,67p,634b,330s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 68i,10n,67p,634b,330s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/Programowanie/LATEX/fonts/type1/public/pl/plbx10.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plbx12.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plex10.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plmi10.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plr10.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plr12.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plr17.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plr7.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plsy10.pfb>
-Output written on raport6.pdf (5 pages, 120905 bytes).
+Output written on raport6.pdf (6 pages, 127336 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
