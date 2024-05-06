@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1714991394.43748 "c:/Users/My/Desktop/II stopień 1 semestr/Metody numeryczne i optymalizacja/statystyka/numerical_methods/lab6/tex/raport6.tex" "raport6.pdf" "raport6" 1714991396.38401 0
+["pdflatex"] 1714991757.30154 "c:/Users/My/Desktop/II stopień 1 semestr/Metody numeryczne i optymalizacja/statystyka/numerical_methods/lab6/tex/raport6.tex" "raport6.pdf" "raport6" 1714991758.44365 0
   "C:/Users/My/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1714390467 86553 91af261fa287312f2fb1f66a097366be ""
   "C:/Users/My/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1710629312 24222817 f6edef0007f08a021f7411c4e438ad27 ""
   "D:/Programowanie/LATEX/fonts/enc/dvips/pl/plme.enc" 958947240 3126 59f33ff3e396436ebc36f4e7b444d5c4 ""
@@ -113,10 +113,10 @@
   "D:/Programowanie/LATEX/tex/latex/varwidth/varwidth.sty" 1238469540 10894 d359a13923460b2a73d4312d613554c8 ""
   "D:/Programowanie/LATEX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "Simplex1.png" 1714984724 47501 952e8755af8f5fa51a66101b5e2542eb ""
-  "c:/Users/My/Desktop/II stopień 1 semestr/Metody numeryczne i optymalizacja/statystyka/numerical_methods/lab6/tex/raport6.tex" 1714991389 9792 2e2e3735deda07afc6b703c531a942a1 ""
-  "raport6.aux" 1714991396 675 1891cc4ca5dc9e9a102c098aaaa7788a "pdflatex"
-  "raport6.tex" 1714991389 9792 2e2e3735deda07afc6b703c531a942a1 ""
-  "raport6.toc" 1714991396 360 ddcf35c938314efb98bb53e457ceea55 "pdflatex"
+  "c:/Users/My/Desktop/II stopień 1 semestr/Metody numeryczne i optymalizacja/statystyka/numerical_methods/lab6/tex/raport6.tex" 1714991754 11776 fcb305fee5728290c9a88b714ce899f6 ""
+  "raport6.aux" 1714991758 772 f44990d599fa1e738253cff39c1ff7a5 "pdflatex"
+  "raport6.tex" 1714991754 11776 fcb305fee5728290c9a88b714ce899f6 ""
+  "raport6.toc" 1714991758 416 77eb2b658a980c611b8f5bad36b98b9e "pdflatex"
   (generated)
   "raport6.aux"
   "raport6.log"

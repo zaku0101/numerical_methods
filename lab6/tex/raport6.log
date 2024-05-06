@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.16)  6 MAY 2024 12:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.16)  6 MAY 2024 12:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -506,7 +506,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 178--186
 
  []
 
-[5{D:/Programowanie/LATEX/fonts/enc/dvips/pl/pltt.enc}] [6] [7]
+[5{D:/Programowanie/LATEX/fonts/enc/dvips/pl/pltt.enc}] [6] [7] [8]
 
 Package caption Warning: Unused \captionsetup[equ] on input line 19.
 See the caption package documentation for explanation.
@@ -515,24 +515,24 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[Tabela] on input line 106.
 See the caption package documentation for explanation.
 
-[8] (raport6.aux)
+[9] (raport6.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 9307 strings out of 474435
- 148367 string characters out of 5752260
+ 9344 strings out of 474435
+ 148744 string characters out of 5752260
  2001190 words of memory out of 5000000
- 31478 multiletter control sequences out of 15000+600000
+ 31515 multiletter control sequences out of 15000+600000
  570479 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,10n,93p,634b,797s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,10n,93p,634b,953s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/Programowanie/LATEX/fonts/type1/public/pl/plbx10.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plbx12.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plex10.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plmi10.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plr10.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plr12.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plr17.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plr7.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plsy10.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/pltt9.pfb>
-Output written on raport6.pdf (8 pages, 149058 bytes).
+Output written on raport6.pdf (9 pages, 154483 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
+ 88 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

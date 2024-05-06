@@ -4,3 +4,4 @@
 \contentsline {section}{\numberline {4}Zadanie nr. 4}{5}{}%
 \contentsline {section}{\numberline {5}Zadanie nr. 5}{7}{}%
 \contentsline {section}{\numberline {6}Zadanie nr. 6}{8}{}%
+\contentsline {section}{\numberline {7}Algorytmy}{8}{}%
