@@ -2,5 +2,5 @@
 \contentsline {section}{\numberline {2}Zadanie nr. 2}{5}{}%
 \contentsline {section}{\numberline {3}Zadanie nr. 3}{5}{}%
 \contentsline {section}{\numberline {4}Zadanie nr. 4}{5}{}%
-\contentsline {section}{\numberline {5}Zadanie nr. 5}{6}{}%
-\contentsline {section}{\numberline {6}Zadanie nr. 6}{6}{}%
+\contentsline {section}{\numberline {5}Zadanie nr. 5}{7}{}%
+\contentsline {section}{\numberline {6}Zadanie nr. 6}{8}{}%
