@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.14)  6 MAY 2024 10:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.14)  6 MAY 2024 10:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -476,31 +476,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--84
 
  []
 
-<Simplex1.png, id=13, 621.82312pt x 347.04657pt>
+[3{C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/enc/dvips/pl/plme.enc}{C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/enc/dvips/pl/plmi.enc}{C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/enc/dvips/pl/plms.enc}]
+<Simplex1.png, id=20, 803.0pt x 602.25pt>
 File: Simplex1.png Graphic file (type png)
 <use Simplex1.png>
 Package pdftex.def Info: Simplex1.png  used on input line 95.
-(pdftex.def)             Requested size: 435.27321pt x 242.93094pt.
+(pdftex.def)             Requested size: 401.49902pt x 301.12425pt.
 
-Overfull \hbox (90.27321pt too wide) in paragraph at lines 95--98
+Overfull \hbox (56.49902pt too wide) in paragraph at lines 95--98
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--106
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
-[3{C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/enc/dvips/pl/plme.enc}{C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/enc/dvips/pl/plmi.enc}{C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/enc/dvips/pl/plms.enc} <./Simplex1.png>]
-LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line 108.
- (C:\Users\Kuba\AppData\Roaming\MiKTeX\tex/latex/polski\ot4cmtt.fd
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--108
+
+ []
+
+LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line 110.
+(C:\Users\Kuba\AppData\Roaming\MiKTeX\tex/latex/polski\ot4cmtt.fd
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
-)
-Underfull \hbox (badness 10000) in paragraph at lines 153--161
+) [4{C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/enc/dvips/pl/pltt.enc} <./Simplex1.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 155--163
 
  []
 
-[4{C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/enc/dvips/pl/pltt.enc}] [5]
+[5] [6]
 
 Package caption Warning: Unused \captionsetup[equ] on input line 19.
 See the caption package documentation for explanation.
@@ -509,7 +514,7 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[Tabela] on input line 97.
 See the caption package documentation for explanation.
 
-[6] (raport6.aux)
+[7] (raport6.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -518,15 +523,15 @@ L3 programming layer <2024-02-20>
 Here is how much of TeX's memory you used:
  9268 strings out of 474435
  148565 string characters out of 5751751
- 1974190 words of memory out of 5000000
+ 1999190 words of memory out of 5000000
  31439 multiletter control sequences out of 15000+600000
  570479 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,8n,93p,588b,953s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,8n,93p,588b,1069s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plbx10.pfb><C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plbx12.pfb><C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plex10.pfb><C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plmi10.pfb><C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plr10.pfb><C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plr12.pfb><C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plr17.pfb><C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plr7.pfb><C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/plsy10.pfb><C:/Users/Kuba/AppData/Roaming/MiKTeX/fonts/type1/public/pl/pltt9.pfb>
-Output written on raport6.pdf (6 pages, 127052 bytes).
+Output written on raport6.pdf (7 pages, 143627 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
+ 82 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

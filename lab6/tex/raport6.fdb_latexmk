@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1714985086.89375 "c:/Users/Kuba/Desktop/MGR SQL/numeryczne/numerical_methods/lab6/tex/raport6.tex" "raport6.pdf" "raport6" 1714985087.90088 0
+["pdflatex"] 1714985140.90572 "c:/Users/Kuba/Desktop/MGR SQL/numeryczne/numerical_methods/lab6/tex/raport6.tex" "raport6.pdf" "raport6" 1714985141.74078 0
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1233951854 924 9904cf1d39e9767e7a3622f2a125a565 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1233951854 928 2dc8d444221b7a635bb58038579b861a ""
@@ -112,11 +112,11 @@
   "C:/Users/Kuba/AppData/Roaming/MiKTeX/tex/latex/polski/ot4cmtt.fd" 1630159173 1780 6238272cd0272d5c6409be0ed01869b8 ""
   "C:/Users/Kuba/AppData/Roaming/MiKTeX/tex/latex/polski/polski.sty" 1630159173 13344 a993928ba746ec4e012bfd315bcc48d8 ""
   "C:/Users/Kuba/AppData/Roaming/MiKTeX/tex/latex/varwidth/varwidth.sty" 1238469540 10894 d359a13923460b2a73d4312d613554c8 ""
-  "Simplex1.png" 1714982530 39557 eec67ff363f0f7ac7205c46bcee3e347 ""
-  "c:/Users/Kuba/Desktop/MGR SQL/numeryczne/numerical_methods/lab6/tex/raport6.tex" 1714985086 7811 3e93440e604b93ca985c88962bd298b7 ""
-  "raport6.aux" 1714985087 675 c8fa5718989be785d29fb85a540069d9 "pdflatex"
-  "raport6.tex" 1714985086 7811 3e93440e604b93ca985c88962bd298b7 ""
-  "raport6.toc" 1714985087 360 77d5fe2e73036856556150816b8514cb "pdflatex"
+  "Simplex1.png" 1714985137 47501 952e8755af8f5fa51a66101b5e2542eb ""
+  "c:/Users/Kuba/Desktop/MGR SQL/numeryczne/numerical_methods/lab6/tex/raport6.tex" 1714985137 7890 79d7e701807c5faa7064e1dcc3e0634b ""
+  "raport6.aux" 1714985141 675 492676b27f092246ab09ecfb9b8365c3 "pdflatex"
+  "raport6.tex" 1714985137 7890 79d7e701807c5faa7064e1dcc3e0634b ""
+  "raport6.toc" 1714985141 360 3aadc01827143612d671adfdf803a7c4 "pdflatex"
   (generated)
   "raport6.aux"
   "raport6.log"
