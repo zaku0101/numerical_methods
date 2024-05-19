@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1715537485.15729 "d:/Skróty/Desktop/numerical_methods/lab7/tex/raport7.tex" "raport7.pdf" "raport7" 1715537485.65973 0
+["pdflatex"] 1716130562.5877 "d:/Skróty/Desktop/numerical_methods/lab7/tex/raport7.tex" "raport7.pdf" "raport7" 1716130563.08352 0
   "C:/Users/2maci/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1714411664 86553 91af261fa287312f2fb1f66a097366be ""
   "C:/Users/2maci/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1714411636 24236006 d2c3f7701878baa9829bb58b31fb141e ""
   "C:/Users/2maci/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plme.enc" 958947240 3126 59f33ff3e396436ebc36f4e7b444d5c4 ""
@@ -119,12 +119,12 @@
   "C:/Users/2maci/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1700599895 7147 d45559f8a31b8c53ada0640516660003 ""
   "C:/Users/2maci/AppData/Local/Programs/MiKTeX/tex/latex/varwidth/varwidth.sty" 1238469540 10894 d359a13923460b2a73d4312d613554c8 ""
   "C:/Users/2maci/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "d:/Skróty/Desktop/numerical_methods/lab7/tex/raport7.tex" 1715537484 8223 4df25cc29d987ec6904d1b4a1db508b8 ""
-  "raport7.aux" 1715537485 675 bd70d0bb046c1a1d8f5a597578b145ca "pdflatex"
-  "raport7.tex" 1715537484 8223 4df25cc29d987ec6904d1b4a1db508b8 ""
-  "raport7.toc" 1715537485 360 03bd8b9d2f6de75132a2bb8d67ba9fa0 "pdflatex"
-  "zad6.jpg" 1715534486 122785 4e58f3ec64c1f8f414d8fa8c94a4f684 ""
-  "zad7.jpg" 1715536606 29528 833ffa9dc49d18fde8e6da2c5a86963a ""
+  "d:/Skróty/Desktop/numerical_methods/lab7/tex/raport7.tex" 1716130562 8534 5876cc63e2ba8380f6ec77bc62ba22ca ""
+  "raport7.aux" 1716130562 776 258f0e2102a530f26dbdb28dfe367f0b "pdflatex"
+  "raport7.tex" 1716130562 8534 5876cc63e2ba8380f6ec77bc62ba22ca ""
+  "raport7.toc" 1716130562 420 10c70bdc172ae77187a61b220f79fb54 "pdflatex"
+  "zad6.jpg" 1716130153 122785 4e58f3ec64c1f8f414d8fa8c94a4f684 ""
+  "zad7.jpg" 1716130153 29528 833ffa9dc49d18fde8e6da2c5a86963a ""
   (generated)
   "raport7.aux"
   "raport7.log"

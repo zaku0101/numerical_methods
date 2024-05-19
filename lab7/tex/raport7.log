@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.4.29)  12 MAY 2024 20:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.4.29)  19 MAY 2024 16:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -485,36 +485,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--88
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--155
+
+ []
+
 [3{C:/Users/2maci/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plmi.enc}{C:/Users/2maci/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plme.enc}{C:/Users/2maci/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plms.enc}]
-LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line 151.
+LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line 159.
  (C:\Users\2maci\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmtt.fd
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
-)
-Overfull \hbox (24.43248pt too wide) in paragraph at lines 191--193
+) [4{C:/Users/2maci/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/pltt.enc}]
+Overfull \hbox (24.43248pt too wide) in paragraph at lines 199--201
 []\OT4/cmr/m/n/10 Natomiast w przy-pad-ku me-to-dy Polaka-Ribiere'a, wy-ko-rzy-sta-no me-thod='BFGS',
  []
 
 
-Overfull \hbox (2.54236pt too wide) in paragraph at lines 191--193
+Overfull \hbox (2.54236pt too wide) in paragraph at lines 199--201
 \OT4/cmr/m/n/10 gdzie BFGS ozna-cza me-to-d¦ quasi-Newtona, któ-ra wy-ko-rzy-stu-je al-go-rytm Quasi-
  []
 
-[4{C:/Users/2maci/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/pltt.enc}]
 <zad6.jpg, id=25, 410.2828pt x 323.70938pt>
 File: zad6.jpg Graphic file (type jpg)
 <use zad6.jpg>
-Package pdftex.def Info: zad6.jpg  used on input line 205.
+Package pdftex.def Info: zad6.jpg  used on input line 213.
 (pdftex.def)             Requested size: 287.196pt x 226.59502pt.
-LaTeX Font Info:    Trying to load font information for U+euf on input line 212.
- (C:\Users\2maci\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueuf.fd
+LaTeX Font Info:    Trying to load font information for U+euf on input line 220.
+(C:\Users\2maci\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
-Overfull \hbox (0.59784pt too wide) in paragraph at lines 211--217
+Overfull \hbox (0.59784pt too wide) in paragraph at lines 219--225
 []\OT4/cmr/m/n/10 Korzystaj¡c z al-go-ryt-mów ta-kich jak quasi-Newton oraz CG, roz-wi¡-za¢ ukªad
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--217
+Underfull \hbox (badness 10000) in paragraph at lines 219--225
 
  []
 
@@ -522,14 +526,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 211--217
 <zad7.jpg, id=31, 411.03563pt x 79.79813pt>
 File: zad7.jpg Graphic file (type jpg)
 <use zad7.jpg>
-Package pdftex.def Info: zad7.jpg  used on input line 264.
+Package pdftex.def Info: zad7.jpg  used on input line 272.
 (pdftex.def)             Requested size: 287.72298pt x 55.85829pt.
- [6 <./zad7.jpg>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6]
 
 Package caption Warning: Unused \captionsetup[equ] on input line 19.
 See the caption package documentation for explanation.
 
-[7] (raport7.aux)
+[7 <./zad7.jpg>] (raport7.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
@@ -538,13 +546,13 @@ L3 programming layer <2024-03-14>
 Here is how much of TeX's memory you used:
  9363 strings out of 474424
  151973 string characters out of 5741739
- 2000496 words of memory out of 5000000
+ 2007496 words of memory out of 5000000
  31539 multiletter control sequences out of 15000+600000
  571187 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,10n,93p,564b,949s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,11n,93p,564b,1069s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/2maci/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Users/2maci/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plbx10.pfb><C:/Users/2maci/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plbx12.pfb><C:/Users/2maci/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plex10.pfb><C:/Users/2maci/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plmi10.pfb><C:/Users/2maci/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plmi7.pfb><C:/Users/2maci/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plr10.pfb><C:/Users/2maci/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plr12.pfb><C:/Users/2maci/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plr17.pfb><C:/Users/2maci/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plr7.pfb><C:/Users/2maci/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plsy10.pfb><C:/Users/2maci/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plsy7.pfb><C:/Users/2maci/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/pltt9.pfb>
-Output written on raport7.pdf (7 pages, 265182 bytes).
+Output written on raport7.pdf (7 pages, 266346 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
