@@ -71,8 +71,129 @@
 \section{Zadanie nr. 1}
 
 \section{Zadanie nr. 2}
+Sprawdź warunki optymalizacji pierwszego i drugiego rzędu dla funkcji kwadratowych:
+\begin{equation}
+  a) f(x) = 2x^2_1 - x_1x_2 + \frac{1}{2}x^2_2 - 3x_1 + 3.5,
+\end{equation}
+\begin{equation}
+  a) f(x) = -\frac{3}{2}x^2_1+x_1x_2-\frac{1}{2}x^2_2 +2x_1 - 1
+\end{equation}
+\begin{equation}
+  a) f(x) = x^2_1 + 8x_1x_2 + \frac{1}{2} x^2_2 - 10x_1 - 9x_2 + \frac{9}{2}
+\end{equation}
+Narysuj ich wykresy konturowe. Czy te funkcje są wypukłe? Jaki rodzaju stacjonarność
+występuje w tych funkcjach?\newline
 
+a) do sprawdzenia optymalizacji pierwszego rzędu dla funkcji kwadratowej należy wyliczyć gradient tej funkcji.
+\begin{equation}
+  \nabla f(x) =
+  \begin{gmatrix}[b]
+    4x_1-x_2-3\\-x_1+x_2
+  \end{gmatrix}
+\end{equation}
+Następnie wyliczony wartoci wektora x. Do tego należy $\nabla f(x^*)=0$.
+\begin{equation}
+    \begin{cases}
+      4x_1-x_2-3=0\\
+      -x_1+x_2=0
+    \end{cases}
+\end{equation}
+Po przeliczeniu wyszło, że wektor dla tej funkcji jest równy:
+\begin{equation}
+  x=\begin{gmatrix}[b]
+    1\\1
+  \end{gmatrix}
+\end{equation}
+Do policzenia drugiego rzędu należy wyliczyć hesian tej funkcji. Pozwoli to nam wyznaczyć czy funkcja jest wypukła.
+\begin{equation}
+  H= 
+  \begin{gmatrix}[b]
+    4&-1\\-1&1
+  \end{gmatrix}
+\end{equation}
+kolejno należy wyliczyć wyznacznik dla $det(H-I\lambda)$.
+\begin{equation}
+  det(H-I\lambda) = (4-\lambda)(1-\lambda)-1
+\end{equation}
+\begin{equation}
+  \lambda_1 = \frac{5-\sqrt[]{13}}{2}
+\end{equation}
+\begin{equation}
+  \lambda_1 = \frac{5+\sqrt[]{13}}{2}
+\end{equation}
+Obie wartości są dodatnie, a zatem funkcja należy do wypukłych. Wykres Wygenerowany w Geogebrze wygląda następująco.
+\begin{figure}[h]
+  \includegraphics[scale=0.4]{Zadanie2a-wykres.png}
+  \title{Rys 2.1 Wykres 3d funkcji podpunktu a)}
+  \centering
+\end{figure}
 
+Dla podpunktu b) i c) wykonano podobne obliczenia dlatego pominięto rozpisywanie wszystkiego krok po kroku.
+b)
+\begin{equation}
+  \nabla f(x)=
+  \begin{gmatrix}[b]
+    -3x_1+x_2+2\\ x_1-x_2
+  \end{gmatrix}
+\end{equation}
+\begin{equation}
+  x=\begin{gmatrix}[b]
+    1\\1
+  \end{gmatrix}
+\end{equation}
+\begin{equation}
+  H=\begin{gmatrix}[b]
+    -3&1\\1&-1
+  \end{gmatrix}
+\end{equation}
+\begin{equation}
+  det(H-I\lambda)=\lambda^2+4\lambda+2
+\end{equation}
+\begin{equation}
+  \lambda_1=-2+\sqrt[]{2}
+\end{equation}
+\begin{equation}
+  \lambda_2=-2-\sqrt[]{2}
+\end{equation}
+W tym przypadku obie lambdy są ujemne, a zatem funkcja jest funkcją wklęsłą.
+\begin{figure}[h]
+  \includegraphics[scale=0.4]{Zadanie2b-wykres.png}
+  \title{Rys 2.2 Wykres 3d funkcji podpunktu b)}
+  \centering
+\end{figure}
+\newpage
+c)
+\begin{equation}
+  \nabla f(x) =\begin{gmatrix}[b]
+    2x_1+8x_2-10\\8x_1+x_2-9
+  \end{gmatrix}
+\end{equation}
+\begin{equation}
+  x=\begin{gmatrix}[b]
+    1\\1
+  \end{gmatrix}
+\end{equation}
+\begin{equation}
+  H=\begin{gmatrix}[b]
+    2&8\\8&1
+  \end{gmatrix}
+\end{equation}
+\begin{equation}
+  det(H-I\lambda)=\lambda^2-3\lambda-62
+\end{equation}
+\begin{equation}
+  \lambda_1=\frac{3-\sqrt[]{257}}{2}
+\end{equation}
+\begin{equation}
+  \lambda_2=\frac{3+\sqrt[]{257}}{2}
+\end{equation}
+W tym wypadku rozwiązania wychodzą jedna ujemna i jedna nieujemna. Wskazuje to na to, że funkcja nie ma globalnego minimum ani maksimum. Kształtem przypomina siodło, stąd nazwa "punkt siodłowy"
+\begin{figure}[h]
+  \includegraphics[scale=0.4]{Zadanie2c-wykres.png}
+  \title{Rys 2.3 Wykres 3d funkcji podpunktu c)}
+  \centering
+\end{figure}
+\newpage
 \section{Zadanie nr. 3}
 Dla funkcji kwadratowej:\\
 \begin{equation}
