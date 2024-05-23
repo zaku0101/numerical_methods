@@ -127,6 +127,14 @@ Obie wartości są dodatnie, a zatem funkcja należy do wypukłych. Wykres Wygen
   \title{Rys 2.1 Wykres 3d funkcji podpunktu a)}
   \centering
 \end{figure}
+\newpage
+Wykres konturowy:
+\begin{figure}[h]
+  \includegraphics[scale=0.5]{Zad2a.png}
+  \title{Rys 2.2 Wykres konturowy funkcji podpunktu a)}
+  \centering
+\end{figure}
+\newpage
 
 Dla podpunktu b) i c) wykonano podobne obliczenia dlatego pominięto rozpisywanie wszystkiego krok po kroku.
 b)
@@ -158,7 +166,14 @@ b)
 W tym przypadku obie lambdy są ujemne, a zatem funkcja jest funkcją wklęsłą.
 \begin{figure}[h]
   \includegraphics[scale=0.4]{Zadanie2b-wykres.png}
-  \title{Rys 2.2 Wykres 3d funkcji podpunktu b)}
+  \title{Rys 2.3 Wykres 3d funkcji podpunktu b)}
+  \centering
+\end{figure}
+\newpage
+Wykres konturowy:
+\begin{figure}[h]
+  \includegraphics[scale=0.5]{Zad2b.png}
+  \title{Rys 2.4 Wykres konturowy funkcji podpunktu b)}
   \centering
 \end{figure}
 \newpage
@@ -190,7 +205,14 @@ c)
 W tym wypadku rozwiązania wychodzą jedna ujemna i jedna nieujemna. Wskazuje to na to, że funkcja nie ma globalnego minimum ani maksimum. Kształtem przypomina siodło, stąd nazwa "punkt siodłowy"
 \begin{figure}[h]
   \includegraphics[scale=0.4]{Zadanie2c-wykres.png}
-  \title{Rys 2.3 Wykres 3d funkcji podpunktu c)}
+  \title{Rys 2.5 Wykres 3d funkcji podpunktu c)}
+  \centering
+\end{figure}
+\newpage
+.
+\begin{figure}[h]
+  \includegraphics[scale=0.5]{Zad2c.png}
+  \title{Rys 2.6 Wykres konturowy funkcji podpunktu c)}
   \centering
 \end{figure}
 \newpage
@@ -265,7 +287,75 @@ wypukła, jeżeli wartość parametru $\alpha$ będzie większa niż $\frac{3}{2
 \section{Zadanie nr. 4}
 
 \section{Zadanie nr. 5}
+Użyj algorytmu najszybszego spadku do znalezienia minimum funkcji Rosenbrocka. Najpierw wypróbuj punkt początkowy $x_0$=[1.2 1.2$]^T$
+a następnie punkt $x_0$=[-1.2 1$]^T$.
 
+Funkcja Rosenbrocka jest to funkcja niewypukła używana w optymalizacji jako test dla algorytmów optymalizacji.
+Zwana jest też ze względu na swój kształ "doliną Rosenbrocka" lub "funkcją bananową Rosenbrocka".
+Funkcja ta w dwóch wymiarach prezentuje się następująco:
+\begin{equation}
+  f(x)= (a - x)^2 + b(y-x^2)^2
+\end{equation}
+Najcześciej stosuje się wartości parametrów a = 1 i b = 100.
+
+Algorytm najszybszego spadku iteracyjnie aktualizuje punkt startowy w kierunku przeciwnym do gradientu. Aktualizacja punktu wykonuje się według wzoru:
+\begin{equation}
+  x_{k+1} = x_k - \alpha \nabla f(x_k)
+\end{equation}
+gdzie $\alpha$ to krok.
+Do przeliczenia wartości w podanych punktach wykorzystano zaimplementowany kod w pythonie.
+\begin{lstlisting}
+  def rosenbrock(x):
+    return 100 * (x[1] - x[0]**2)**2 + (1 - x[0])**2
+
+# Define the gradient of the Rosenbrock function
+def rosenbrock_grad(x):
+    dfdx1 = -400 * x[0] * (x[1] - x[0]**2) - 2 * (1 - x[0])
+    dfdx2 = 200 * (x[1] - x[0]**2)
+    return np.array([dfdx1, dfdx2])
+
+# Steepest descent algorithm
+def steepest_descent(rosenbrock, rosenbrock_grad, x0, learning_rate=0.001, max_iter=10000, tol=1e-6):
+    x = x0
+    for i in range(max_iter):
+        grad = rosenbrock_grad(x)
+        x_new = x - learning_rate * grad
+        if np.linalg.norm(x_new - x) < tol:
+            break
+        x = x_new
+    return x, rosenbrock(x), i
+
+# Initial points
+initial_points = [np.array([1.2, 1.2]), np.array([-1.2, 1.0])]
+
+# Perform steepest descent for each initial point
+results = []
+for x0 in initial_points:
+    result = steepest_descent(rosenbrock, rosenbrock_grad, x0)
+    results.append(result)
+\end{lstlisting}
+\begin{table}[h!]
+  \begin{tabular}{lll}
+  
+  \multicolumn{1}{p{114.4275pt}}{\raggedright Punkty początkowe} & \multicolumn{1}{p{114.4275pt}}{\raggedright [1.2 1.2]} & \multicolumn{1}{p{113.67469pt}}{\raggedright [-1.2 1]}\\ 
+  
+  \multicolumn{1}{p{114.4275pt}}{\raggedright Znaleziony minimalny punkt} & \multicolumn{1}{p{114.4275pt}}{\raggedright [1.00111864 1.00224301]} & \multicolumn{1}{p{113.67469pt}}{\raggedright [0.99888303 0.99776284]}\\ 
+  
+  \multicolumn{1}{p{114.4275pt}}{\raggedright Wartość funkcji w punkcie} & \multicolumn{1}{p{114.4275pt}}{\raggedright 1.2533645426010813e-06} & \multicolumn{1}{p{113.67469pt}}{\raggedright 1.2496137290730113e-06}\\ 
+  
+  \multicolumn{1}{p{114.4275pt}}{\raggedright Liczba iteracji} & \multicolumn{1}{p{114.4275pt}}{\raggedright \ 11972} & \multicolumn{1}{p{113.67469pt}}{\raggedright 14789}\\ 
+  
+  
+  \end{tabular}
+  \end{table}
+Wartości w obu przypadkach zbiegają do punkty minimalnego jaki występuje w tej funkcji (x=[1 1$]^T$) oraz do wartości (f(x)=0). Ze względu na to, że punkt pierwszy znajduje się bliżej finalnego punktu, liczba iteracji była mniejsza.
+
+Poniżej przedstawiono wykres konturowy dla danej funkcji z zaznaczonymi punktami.
+\begin{figure}[h]
+  \includegraphics[scale=0.5]{Zad5.png}
+  \title{Rys 5 Wykres konturowy dla funkcji Rosenbrocka}
+  \centering
+\end{figure}
 \section{Zadanie nr. 6}
 
 Zadana jest funkcja Rosenbrocka: $f(x)=100(x_2-x_1^2)^2+(1-x)^2$, narysuj
