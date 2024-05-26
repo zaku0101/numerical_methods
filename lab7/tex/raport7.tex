@@ -70,6 +70,57 @@
 \newpage
 \section{Zadanie nr. 1}
 
+Sprawdzić warunki optymalizacji pierwszego i drugiego rzędu w punkcie: $ x = [1  1]^T $
+funkcji Rosenbrocka: $f(x) = 100(x_2 - x_1^2)^2 + (1-x_1)^2 $ . Narysuj wykres 
+konturowy tej funkcji.
+
+Poniżej algorytm realizujący zadanie:
+
+\begin{lstlisting}
+
+  import numpy as np
+import matplotlib.pyplot as plt
+
+# Definicja funkcji Rosenbrocka
+def rosenbrock(x):
+    return 100 * (x[1] - x[0]**2)**2 + (1 - x[0])**2
+
+# Punkt, w którym sprawdzamy warunki optymalizacji
+punkt = np.array([1, 1])
+
+# Gradient funkcji Rosenbrocka
+def gradient_rosenbrock(x):
+    return np.array([-400 * x[0] * (x[1] - x[0]**2) - 2 * (1 - x[0]), 
+                     200 * (x[1] - x[0]**2)])
+
+# Sprawdzenie warunków pierwszego rzędu
+grad = gradient_rosenbrock(punkt)
+print(f"Gradient w punkcie {punkt}: {grad}")
+
+# Rysowanie wykresu konturowego
+x = np.linspace(-2, 2, 400)
+y = np.linspace(-1, 3, 400)
+X, Y = np.meshgrid(x, y)
+Z = rosenbrock([X, Y])
+
+plt.figure(figsize=(6, 4))
+plt.contour(X, Y, Z, levels=np.logspace(-0.5, 3.5, 20), cmap='jet')
+plt.plot(1, 1, 'ro') # Punkt optymalny
+plt.title('Wykres konturowy funkcji Rosenbrocka')
+plt.xlabel('x1')
+plt.ylabel('x2')
+plt.show()
+
+\end{lstlisting}
+
+\newpage
+
+\begin{figure}[h]
+  \includegraphics[scale=0.8]{zad1.png}
+  \title{Rys. 1.1. Wykres konturowy funkcji.}
+  \centering
+\end{figure}
+
 \section{Zadanie nr. 2}
 Sprawdź warunki optymalizacji pierwszego i drugiego rzędu dla funkcji kwadratowych:
 \begin{equation}
@@ -286,6 +337,84 @@ wypukła, jeżeli wartość parametru $\alpha$ będzie większa niż $\frac{3}{2
 
 \section{Zadanie nr. 4}
 
+Funkcja Himmelblaua $f(x,y)=(x^2 + y -11)^2 + (x + y^2 - 7)^2 $ ma cztery 
+odrębne minima: $f(3;2)=0, f(-3.78;-3.28)=0,0054, f(-2.81;3.13)=0,0085 , f(3.58;-1.85)=0,0011 $ 
+Zbadaj do których minimów zbiegają się algorytmy gradientowy
+i quasi-Newtona, gdy są zainicjalizowane w punktach $(x_i, y_j)$, gdzie:
+$x_i = -5+10(\frac{i-1}{29}), y_j = -5+10(\frac{j-1}{29}), j= 1,...,30, i=1,...,30.$
+Są to punktu tworzące 
+jednolitą siatkę prostokątną. Sklasyfikuj każdy punkt inicjalizacji według minimów, do 
+których zbiegają się wybrane algorytmy, tworząc kolorową mapę punktów, gdzie kolory 
+oznaczałyby minima, do których zbiega się analizowany algorytm z danego punktu 
+inicjalizacyjnego. Wykonaj mapy punktów oddzielnie dla każdego algorytmu.
+
+Poniżej implementacja rozwiązania w języku python:
+\begin{lstlisting}
+  import numpy as np
+  import matplotlib.pyplot as plt
+  from scipy.optimize import minimize
+  
+  # Definicja funkcji Himmelblaua
+  def himmelblau(x):
+      return (x[0]**2 + x[1] - 11)**2 + (x[0] + x[1]**2 - 7)**2
+  
+  # Znane minima
+  minima = np.array([
+      [3, 2],
+      [-3.78, -3.28],
+      [-2.81, 3.13],
+      [3.58, -1.85]
+  ])
+  
+  # Generowanie punktów siatki startowej
+  x = np.linspace(-5, 5, 30)
+  y = np.linspace(-5, 5, 30)
+  X, Y = np.meshgrid(x, y)
+  start_points = np.c_[X.ravel(), Y.ravel()]
+  
+  # Algorytmy do zastosowania
+  methods = ['BFGS', 'CG']
+  
+  # Funkcja do przypisania wyników do najbliższego znanego minimum
+  def classify_minimum(result, minima):
+      distances = np.linalg.norm(minima - result, axis=1)
+      return np.argmin(distances)
+  
+  # Przeprowadzenie optymalizacji
+  results = {method: np.zeros_like(X, dtype=int) for method in methods}
+  
+  for method in methods:
+      for idx, point in enumerate(start_points):
+          res = minimize(himmelblau, point, method=method)
+          classified_min = classify_minimum(res.x, minima)
+          results[method].ravel()[idx] = classified_min
+  
+  # Wizualizacja wyników osobno dla każdej metody
+  for method in methods:
+      plt.figure(figsize=(7, 7))
+      c = plt.pcolormesh(X, Y, results[method], shading='auto')
+      plt.scatter(minima[:, 0], minima[:, 1], c='red', marker='x')
+      plt.title(f'Rezultaty dla metody {method}')
+      plt.xlabel('x')
+      plt.ylabel('y')
+      plt.colorbar(c, ticks=[0, 1, 2, 3], label='Minimum')
+      plt.show()
+    
+\end{lstlisting}
+
+\begin{figure}[h!]
+  \includegraphics[scale=0.8]{zad4.1.png}
+  \title{Rys. 4.1. Mapa punktów dla algorytmu gradientowego.}
+  \centering
+\end{figure}
+
+\begin{figure}[h!]
+  \includegraphics[scale=0.8]{zad4.2.png}
+  \title{Rys. 4.2. Mapa punktów dla algorytmu quasi-Newtona.}
+  \centering
+\end{figure}
+
+\newpage
 \section{Zadanie nr. 5}
 Użyj algorytmu najszybszego spadku do znalezienia minimum funkcji Rosenbrocka. Najpierw wypróbuj punkt początkowy $x_0$=[1.2 1.2$]^T$
 a następnie punkt $x_0$=[-1.2 1$]^T$.
