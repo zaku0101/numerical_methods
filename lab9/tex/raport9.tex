@@ -1,0 +1,259 @@
+\documentclass{article}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{tabularx}
+\usepackage[export]{adjustbox}
+\usepackage{polski}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{float}
+\usepackage{gauss}
+
+\DeclareCaptionType{equ}[][List of equations]
+\captionsetup[equ]{labelformat=empty}
+
+%script adding bars in matrix
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\g@matrix
+ {\vbox\bgroup}
+ {\vbox\bgroup\normalbaselines}% restore the standard baselineskip
+ {}{}
+\makeatother
+
+\newcommand{\BAR}{%
+  \hspace{-\arraycolsep}%
+  \strut\vrule % the `\vrule` is as high and deep as a strut
+  \hspace{-\arraycolsep}%
+}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Python,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3,
+  extendedchars=\true,
+  inputencoding=utf8x
+}
+
+\lstset{literate={ą}{{\k{a}}}1 {ł}{{\l{}}}1 {ń}{{\'n}}1 {ę}{{\k{e}}}1 {ś}{{\'s}}1 {ż}{{\.z}}1 {ó}{{\'o}}1 {ź}{{\'z}}1 {Ą}{{\k{A}}}1 {Ł}{{\L{}}}1 {Ń}{{\'N}}1 {Ę}{{\k{E}}}1 {Ś}{{\'S}}1 {Ż}{{\.Z}}1 {Ó}{{\'O}}1 {Ź}{{\'Z}}1 }
+
+\begin{document}
+\title{Sprawozdanie - Metody numeryczne i optymailzacja}
+\author{Jakub Andryszczak 259519,\\ Jakub Żak 244255,\\ Maciej Cierpisz 249163}
+\date{}
+\maketitle
+
+\newpage
+\tableofcontents
+%Tutaj zaczyna się wstęp
+
+\newpage
+\section{Zadanie nr. 1}
+
+
+
+\section{Zadanie nr. 2}
+
+\section{Zadanie nr. 3}
+
+
+
+\section{Zadanie nr. 4}
+
+Rozwiąż następujące zadanie programowania kwadratowego:
+
+
+\begin{align*}
+\min \, \frac{1}{2}x^TQx + c^Tx \\
+\text{przy ograniczeniach:} \\
+Ax \ge b, \\
+x \ge 0,
+\end{align*}
+
+Sformułuj zadanie dualne dla powyższego problem. Następnie rozwiąż poniższe zadanie:
+
+\begin{align*}
+    \min &\qquad \frac{1}{2}x_1^2 + x_2^2 - x_1x_2 - 2x_1 - 6x_2 \\
+    \text{p.o.} &\qquad x_1 + x_2 \leq 2, \\
+    &\qquad -x_1 + 2x_2 \leq 2, \\
+    &\qquad 2x_1 + x_2^2 \leq 2, \\
+    &\qquad x_1 \geq 0, \\
+    &\qquad x_2 \geq 0.
+    \end{align*}
+    
+Poniżej kod realizujący zadanie:
+
+\begin{lstlisting}
+    import cvxpy as cp
+
+# Zdefiniowane zmienne
+x1 = cp.Variable()
+x2 = cp.Variable()
+
+# Funkcja celu (do zminimalizowania)
+objective = cp.Minimize(x1**2 + x2**2 - 4*x1 - 2*x2 - 6)
+
+# Ograniczenia
+constraints = [x1 + x2 <= 2, -x1 + 2*x2 <= 2, 2*x1 + x2 <= 2, x1 >= 0, x2 >= 0]
+
+# Problem programowania kwadratowego
+prob = cp.Problem(objective, constraints)
+
+# Rozwiązanie problemu
+prob.solve()
+
+# Wyświetlenie wyników
+print("Wartość minimalna funkcji:", prob.value)
+print("x1:", x1.value)
+print("x2:", x2.value)
+
+\end{lstlisting}
+
+Wyniki:
+\begin{equation}
+    \begin{cases}
+        min. funkcji = -9.2\\
+        x1 = 0.7999999999999999\\
+        x2 = 0.39999999999999997
+    \end{cases}
+\end{equation}
+
+\section{Zadanie nr. 5}
+
+Rozwiąż zadanie:\\
+\begin{align*}
+    \min &\qquad x_1^2 + x_2^2 + x_3^2 \\
+    \text{p.o.} &\qquad x_1 + 2x_2 - x_3 = 4, \\
+    &\qquad x_1 -x_2 +x_3 = -2.
+    \end{align*}
+
+
+Kod realizujący zadanie:
+\begin{lstlisting}
+    
+    import cvxpy as cp
+
+    # Definiowanie zmiennych
+    x1 = cp.Variable()
+    x2 = cp.Variable()
+    x3 = cp.Variable()
+    
+    # Funkcja celu
+    objective = cp.Minimize(x1**2 + x2**2 + x3**2)
+    
+    # Ograniczenia
+    constraints = [
+        x1 + 2*x2 - x3 == 4,
+        x1 - x2 + x3 == -2
+    ]
+    
+    # Definiowanie problemu
+    problem = cp.Problem(objective, constraints)
+    
+    # Rozwiązywanie problemu
+    problem.solve()
+    
+    # Wyświetlanie wyników
+    print("Optymalne wartości zmiennych:")
+    print("x1 =", x1.value)
+    print("x2 =", x2.value)
+    print("x3 =", x3.value)
+    print("Minimalna wartość funkcji celu =", problem.value)
+    
+
+\end{lstlisting}
+
+Wyniki:
+\begin{equation}
+    \begin{cases}
+        x1=0.28571428571428564\\
+        x2=1.4285714285714284\\
+        x3=-0.8571428571428571
+    \end{cases}
+\end{equation}
+
+Minimalna wrtość funkcji celu = 2.8571428571428568.
+\section{Zadanie nr. 6}
+
+Rozwiąż zadanie:\\
+\begin{align*}
+    \min &\qquad x_1^2 - x_2^2 \\
+    \text{p.o.} &\qquad x_1 + 2x_2 \geq 2, \\
+    &\qquad -5x_1 +4x_2 \leq 10,\\
+    &\qquad x_1 \leq 0, \\
+    &\qquad x_2 \geq 0.
+    \end{align*}
+
+Kod realizujący zadanie: 
+
+\begin{lstlisting}
+    
+    from scipy.optimize import minimize
+    import numpy as np
+    
+    # Define the objective function
+    def objective(x):
+        return x[0]**2 - x[1]**2
+    
+    # Define the constraints
+    def constraint1(x):
+        return x[0] + 2*x[1] - 2
+    
+    def constraint2(x):
+        return -5*x[0] + 4*x[1] - 10
+    
+    # Define the bounds manually since COBYLA doesn't support bounds directly
+    def cobyla_bounds(x):
+        return [x[0], -x[0], x[1]]
+    
+    # Define the initial guess
+    x0 = [-0.1, 1.0]  # Feasible initial guess
+    
+    # Define the constraints dictionary
+    cons = [{'type': 'ineq', 'fun': constraint1},
+            {'type': 'ineq', 'fun': constraint2},
+            {'type': 'ineq', 'fun': lambda x: x[0]},    # x1 <= 0 --> x1 is negative
+            {'type': 'ineq', 'fun': lambda x: x[1]}]    # x2 >= 0 --> x2 is positive
+    
+    # Solve the problem
+    solution = minimize(objective, x0, method='COBYLA', constraints=cons)
+    
+    # Print the results
+    print(f"Optimal value: {solution.fun}")
+    print(f"Optimal x1: {solution.x[0]}")
+    print(f"Optimal x2: {solution.x[1]}")
+
+\end{lstlisting}
+
+Wyniki:
+
+\begin{equation}
+    \begin{cases}
+        x1=9.038781217079983\\
+        x2=974.2149836274926
+    \end{cases}
+\end{equation}
+Optymalna wartość: -949013.1347584255
+\section{Zadanie nr. 7}
+
+\end{document}
