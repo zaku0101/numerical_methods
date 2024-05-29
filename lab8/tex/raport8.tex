@@ -1,0 +1,169 @@
+\documentclass{article}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{tabularx}
+\usepackage[export]{adjustbox}
+\usepackage{polski}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{float}
+\usepackage{gauss}
+
+\DeclareCaptionType{equ}[][List of equations]
+\captionsetup[equ]{labelformat=empty}
+
+%script adding bars in matrix
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\g@matrix
+ {\vbox\bgroup}
+ {\vbox\bgroup\normalbaselines}% restore the standard baselineskip
+ {}{}
+\makeatother
+
+\newcommand{\BAR}{%
+  \hspace{-\arraycolsep}%
+  \strut\vrule % the `\vrule` is as high and deep as a strut
+  \hspace{-\arraycolsep}%
+}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Python,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3,
+  extendedchars=\true,
+  inputencoding=utf8x
+}
+
+\lstset{literate={ą}{{\k{a}}}1 {ł}{{\l{}}}1 {ń}{{\'n}}1 {ę}{{\k{e}}}1 {ś}{{\'s}}1 {ż}{{\.z}}1 {ó}{{\'o}}1 {ź}{{\'z}}1 {Ą}{{\k{A}}}1 {Ł}{{\L{}}}1 {Ń}{{\'N}}1 {Ę}{{\k{E}}}1 {Ś}{{\'S}}1 {Ż}{{\.Z}}1 {Ó}{{\'O}}1 {Ź}{{\'Z}}1 }
+
+\begin{document}
+\title{Sprawozdanie - Metody numeryczne i optymailzacja}
+\author{Jakub Andryszczak 259519,\\ Jakub Żak 244255,\\ Maciej Cierpisz 249163}
+\date{}
+\maketitle
+
+\newpage
+\tableofcontents
+%Tutaj zaczyna się wstęp
+
+\newpage
+\section{Zadanie nr. 1}
+
+
+
+\section{Zadanie nr. 2}
+
+\section{Zadanie nr. 3}
+
+Rozwiąż poniższy układ równań nieliniowych:\\
+\begin{equation}
+  \begin{cases}
+    2x_1=x_2=exp(-x_1)\\
+    -x_1+2x_2=exp(-x_2)
+  \end{cases}
+\end{equation}
+
+dla punktu startowego $x_0=[-5 5]^t$.
+
+Poniżej kod realizujący zadanie:
+
+\begin{lstlisting}
+  
+  import numpy as np
+  from scipy.optimize import fsolve
+  
+  # Define the system of nonlinear equations
+  def equations(vars):
+      x1, x2 = vars
+      eq1 = 2 * x1 - x2 - np.exp(-x1)
+      eq2 = -x1 + 2 * x2 - np.exp(-x2)
+      return [eq1, eq2]
+  
+  # Initial guess
+  x0 = [-5, -5]
+  
+  # Solve the system of equations
+  solution = fsolve(equations, x0)
+  
+  # Print the solution
+  print("Solution:")
+  print(f"x1 = {solution[0]}")
+  print(f"x2 = {solution[1]}")
+
+\end{lstlisting}
+
+Wyniki:
+
+\begin{equation}
+  \begin{cases}
+    x_1=0.5671432904097838\\
+    x_2=0.567143290409784
+  \end{cases}
+\end{equation}
+
+\section{Zadanie nr. 4}
+Znajdź rozwiązanie minimalizujące funkcję celu\\
+$\sum_{k=1}^{10}(2+2k-exp(kx_1)-exp(kx_2))^2$\\
+dla punktu początkowego $x_0=[0.3, 0.4]^T$.
+
+Poniżej kod realizujący zadanie:
+
+\begin{lstlisting}
+  import numpy as np
+from scipy.optimize import minimize
+
+# Define the objective function
+def objective(x):
+    x1, x2 = x
+    total = 0
+    for k in range(1, 11):
+        total += (2 + 2*k - np.exp(k*x1) - np.exp(k*x2))**2
+    return total
+
+# Initial guess
+x0 = [0.3, 0.4]
+
+# Minimize the objective function
+result = minimize(objective, x0)
+
+# Print the solution
+print("Solution:")
+print(f"x1 = {result.x[0]}")
+print(f"x2 = {result.x[1]}")
+\end{lstlisting}
+
+Wyniki:
+
+\begin{equation}
+  \begin{cases}
+    x_1=0.25782520984040996\\
+    x_2=0.2578252098334402
+  \end{cases}
+\end{equation}
+
+\section{Zadanie nr. 5}
+
+
+
+\end{document}
