@@ -69,14 +69,218 @@
 
 \newpage
 \section{Zadanie nr. 1}
+Znajdź zmienne \(x_1\) oraz \(x_2\), które minimalizują funkcję celu \(x_1 + x_2\) przy ograniczeniu:
+\[
+x_1^2 + x_2^2 = 2.
+\]
 
+Aby rozwiązać podane zadanie optymalizacji, użyjemy metody mnożników Lagrange'a. Zadanie polega na znalezieniu zmiennych \(x_1\) oraz \(x_2\), które minimalizują funkcję celu \(f(x_1, x_2) = x_1 + x_2\) przy ograniczeniu \(g(x_1, x_2) = x_1^2 + x_2^2 - 2 = 0\).
 
+Metoda mnożników Lagrange'a polega na wprowadzeniu nowej zmiennej \(\lambda\) (mnożnika Lagrange'a) i rozwiązaniu układu równań danych przez gradienty funkcji Lagrange'a:
+\[ \nabla f = \lambda \nabla g \]
 
+Funkcja Lagrange'a jest zdefiniowana jako:
+\[ \mathcal{L}(x_1, x_2, \lambda) = f(x_1, x_2) + \lambda (g(x_1, x_2)) \]
+\[ \mathcal{L}(x_1, x_2, \lambda) = (x_1 + x_2) + \lambda (x_1^2 + x_2^2 - 2) \]
+
+Teraz obliczamy pochodne cząstkowe i przyrównujemy je do zera:
+\[ \frac{\partial \mathcal{L}}{\partial x_1} = 1 + \lambda \cdot 2x_1 = 0 \]
+\[ \frac{\partial \mathcal{L}}{\partial x_2} = 1 + \lambda \cdot 2x_2 = 0 \]
+\[ \frac{\partial \mathcal{L}}{\partial \lambda} = x_1^2 + x_2^2 - 2 = 0 \]
+
+Rozwiązując te równania krok po kroku:
+
+1. Z równania \(\frac{\partial \mathcal{L}}{\partial x_1} = 0\):
+\[ 1 + 2\lambda x_1 = 0 \]
+\[ \lambda = -\frac{1}{2x_1} \]
+
+2. Z równania \(\frac{\partial \mathcal{L}}{\partial x_2} = 0\):
+\[ 1 + 2\lambda x_2 = 0 \]
+\[ \lambda = -\frac{1}{2x_2} \]
+
+3. Przyrównując dwa wyrażenia dla \(\lambda\):
+\[ -\frac{1}{2x_1} = -\frac{1}{2x_2} \]
+\[ x_1 = x_2 \]
+
+4. Używając ograniczenia \(x_1^2 + x_2^2 = 2\):
+\[ x_1^2 + x_1^2 = 2 \]
+\[ 2x_1^2 = 2 \]
+\[ x_1^2 = 1 \]
+\[ x_1 = \pm 1 \]
+
+W związku z tym, \(x_2\) również jest \( \pm 1 \). To daje nam dwa punkty:
+\[ (x_1, x_2) = (1, 1) \quad \text{lub} \quad (-1, -1) \]
+
+Teraz obliczamy wartość funkcji celu w tych punktach:
+\[ f(1, 1) = 1 + 1 = 2 \]
+\[ f(-1, -1) = -1 - 1 = -2 \]
+
+Tak więc, minimalna wartość funkcji celu \(x_1 + x_2\) przy danym ograniczeniu jest osiągana w punkcie \((x_1, x_2) = (-1, -1)\).
+
+Zatem zmienne \(x_1\) oraz \(x_2\), które minimalizują funkcję celu to:
+\[ x_1 = -1, \quad x_2 = -1 \]
+
+\begin{figure}[h]
+    \includegraphics[scale=0.4]{zadanie1.png}
+    \title{\newline Rys. 1.1. Wykres dopuszczalnych rozwiązań oraz punktów spełniających warunki optymalności KKT}
+    \centering
+  \end{figure}
+\newpage
 \section{Zadanie nr. 2}
+Znajdź zmienne \(x_1\) oraz \(x_2\), które minimalizują funkcję celu \(x_1 + x_2\) przy ograniczeniach:
+\[
+x_2 \geq 0,
+\]
+\[
+2 - x_1^2 - x_2^2 \geq 0.
+\]
+Narysuj zbiór rozwiązań dopuszczalnych na płaszczyźnie \(\mathbb{R}^2\) i znajdź punkty spełniające warunki optymalności KKT. Które ograniczenia są aktywne? Zilustruj zadanie geometrycznie.
+Minimalizujemy funkcję celu:
+\[
+f(x_1, x_2) = x_1 + x_2
+\]
+przy ograniczeniach:
+\[
+g_1(x_1, x_2) = x_2 \geq 0,
+\]
+\[
+g_2(x_1, x_2) = 2 - x_1^2 - x_2^2 \geq 0.
+\]
 
+Definiujemy funkcję Lagrange'a:
+\[
+\mathcal{L}(x_1, x_2, \lambda_1, \lambda_2) = x_1 + x_2 + \lambda_1 (-x_2) + \lambda_2 (2 - x_1^2 - x_2^2)
+\]
+
+Gradient funkcji Lagrange'a:
+\[
+\nabla \mathcal{L} = \left( 1 - 2\lambda_2 x_1, 1 - \lambda_1 - 2\lambda_2 x_2, -x_2, 2 - x_1^2 - x_2^2 \right)
+\]
+
+Warunki KKT:
+\[
+1 - 2\lambda_2 x_1 = 0,
+\]
+\[
+1 - \lambda_1 - 2\lambda_2 x_2 = 0,
+\]
+\[
+\lambda_1 \geq 0, \quad \lambda_1 x_2 = 0,
+\]
+\[
+\lambda_2 \geq 0, \quad \lambda_2 (2 - x_1^2 - x_2^2) = 0.
+\]
+Rozwiązywanie układu równań
+
+\[
+1 - 2\lambda_2 x_1 = 0 \implies \lambda_2 = \frac{1}{2x_1},
+\]
+\[
+1 - \lambda_1 - 2\lambda_2 x_2 = 0 \implies 1 - \lambda_1 - \frac{x_2}{x_1} = 0,
+\]
+
+\[
+x_1^2 + x_2^2 = 2.
+\]
+Sprawdzanie ograniczeń aktywnych
+
+- Jeśli \(\lambda_1 = 0\), \(x_2 \geq 0\).
+- Jeśli \(\lambda_2 = 0\), \(x_1^2 + x_2^2 = 2\).
+Rozwiązanie dla punktów aktywnych
+
+- \(x_1 = -\sqrt{2}\), \(x_2 = 0\),
+- \(x_1 = \sqrt{2}\), \(x_2 = 0\).
+
+Minimalizacja funkcji celu
+
+\[
+f(-\sqrt{2}, 0) = -\sqrt{2} + 0 = -\sqrt{2},
+\]
+\[
+f(\sqrt{2}, 0) = \sqrt{2} + 0 = \sqrt{2}.
+\]
+
+Minimalna wartość funkcji celu jest osiągana w punkcie \((- \sqrt{2}, 0)\).
+\begin{figure}[h]
+    \includegraphics[scale=0.4]{zadanie2.png}
+    \title{\newline Rys. 2.1. Wykres dopuszczalnych rozwiązań oraz punktów spełniających warunki optymalności KKT}
+    \centering
+  \end{figure}
+\newpage
 \section{Zadanie nr. 3}
+Znajdź zmienne \(x_1\) oraz \(x_2\), które minimalizują funkcję celu \(x_1^2 + x_2^2\) przy ograniczeniu:
+\[
+x_1 + x_2 \geq 1.
+\]
+Znajdź rozwiązanie i wykaż, że funkcja celu dla tego rozwiązania ma punkt przegięcia.
+
+Minimalizujemy funkcję celu:
+\[
+f(x_1, x_2) = x_1^2 + x_2^2
+\]
+przy ograniczeniu:
+\[
+g(x_1, x_2) = x_1 + x_2 - 1 \geq 0.
+\]
+
+Definiujemy funkcję Lagrange'a:
+\[
+\mathcal{L}(x_1, x_2, \lambda) = x_1^2 + x_2^2 + \lambda (1 - x_1 - x_2)
+\]
+
+Gradient funkcji Lagrange'a:
+\[
+\nabla \mathcal{L} = \left( 2x_1 - \lambda, 2x_2 - \lambda, 1 - x_1 - x_2 \right)
+\]
+
+Warunki KKT:
+\[
+2x_1 - \lambda = 0, \quad 2x_2 - \lambda = 0, \quad 1 - x_1 - x_2 \geq 0, \quad \lambda \geq 0, \quad \lambda (1 - x_1 - x_2) = 0
+\]
+
+Z pierwszych dwóch równań mamy:
+\[
+2x_1 = \lambda \quad \text{i} \quad 2x_2 = \lambda \implies 2x_1 = 2x_2 \implies x_1 = x_2
+\]
+
+Podstawiamy \( x_1 = x_2 \) do ograniczenia:
+\[
+x_1 + x_1 = 2x_1 \geq 1 \implies x_1 \geq \frac{1}{2}
+\]
+
+Zatem \( x_1 = x_2 = \frac{1}{2} \) i \(\lambda = 2x_1 = 1\).
 
 
+Minimalizowana funkcja celu przyjmuje wartość:
+\[
+f\left(\frac{1}{2}, \frac{1}{2}\right) = \left(\frac{1}{2}\right)^2 + \left(\frac{1}{2}\right)^2 = \frac{1}{4} + \frac{1}{4} = \frac{1}{2}
+\]
+
+
+Aby wykazać, że funkcja celu ma punkt przegięcia w \( \left( \frac{1}{2}, \frac{1}{2} \right) \), sprawdzimy drugie pochodne funkcji celu:
+\[
+f(x_1, x_2) = x_1^2 + x_2^2
+\]
+
+Drugie pochodne:
+\[
+\frac{\partial^2 f}{\partial x_1^2} = 2, \quad \frac{\partial^2 f}{\partial x_2^2} = 2, \quad \frac{\partial^2 f}{\partial x_1 \partial x_2} = 0
+\]
+
+Macierz Hessego:
+\[
+H = \begin{bmatrix}
+2 & 0 \\
+0 & 2
+\end{bmatrix}
+\]
+
+Wyznacznik macierzy Hessego:
+\[
+\det(H) = 2 \times 2 - 0 \times 0 = 4 > 0
+\]
+
+Ponieważ wyznacznik macierzy Hessego jest dodatni i drugie pochodne są dodatnie, funkcja \( f(x_1, x_2) \) ma minimum w punkcie \( \left( \frac{1}{2}, \frac{1}{2} \right) \). Jest to punkt przegięcia, co można zilustrować geometrycznie.
 
 \section{Zadanie nr. 4}
 
