@@ -1,209 +1,209 @@
-PWD C:\Users\Kuba\Desktop\MGR SQL\numeryczne\numerical_methods\lab7\tex
-INPUT C:\Users\Kuba\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Kuba\Desktop\MGR SQL\numeryczne\numerical_methods\lab7\tex\raport7.tex
+PWD c:\Users\My\Desktop\II stopień 1 semestr\Metody numeryczne i optymalizacja\statystyka\numerical_methods\lab7\tex
+INPUT C:\Users\My\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\My\Desktop\II stopień 1 semestr\Metody numeryczne i optymalizacja\statystyka\numerical_methods\lab7\tex\raport7.tex
 OUTPUT raport7.log
-INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
-INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
-INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
-INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
-INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstpatch.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstpatch.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstpatch.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\mathtools\mathtools.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\mathtools\mathtools.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\mathtools\mhsetup.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\mathtools\mhsetup.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\caption\caption.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\caption\caption.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\caption\caption3.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\caption\caption3.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\tabularx.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\tabularx.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\adjustbox\adjustbox.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\adjustbox\adjustbox.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\xkeyval\xkeyval.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\xkeyval\xkeyval.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\xkeyval.tex
-INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\xkvutils.tex
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\adjustbox\adjcalc.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\adjustbox\adjcalc.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\adjustbox\trimclip.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\adjustbox\trimclip.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\collectbox\collectbox.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\collectbox\collectbox.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\adjustbox\tc-pdftex.def
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\adjustbox\tc-pdftex.def
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\adjustbox\tc-pdftex.def
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\varwidth\varwidth.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\varwidth\varwidth.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\varwidth\varwidth.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\polski\polski.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\polski\polski.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\polski\ot4cmr.fd
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\polski\ot4cmr.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\base\ot4enc.def
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\polski\ot4cmr.fd
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plr10.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\indentfirst.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\indentfirst.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pdfpages.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pdfpages.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\eso-pic\eso-pic.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\eso-pic\eso-pic.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pppdftex.def
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pppdftex.def
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\pdfpages\pppdftex.def
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\gauss\gauss.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\gauss\gauss.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\newfloat\newfloat.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\newfloat\newfloat.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT D:\Programowanie\LATEX\tex\latex\base\article.cls
+INPUT D:\Programowanie\LATEX\tex\latex\base\article.cls
+INPUT D:\Programowanie\LATEX\tex\latex\base\size10.clo
+INPUT D:\Programowanie\LATEX\tex\latex\base\size10.clo
+INPUT D:\Programowanie\LATEX\tex\latex\base\size10.clo
+INPUT D:\Programowanie\LATEX\tex\latex\listings\listings.sty
+INPUT D:\Programowanie\LATEX\tex\latex\listings\listings.sty
+INPUT D:\Programowanie\LATEX\tex\latex\graphics\keyval.sty
+INPUT D:\Programowanie\LATEX\tex\latex\graphics\keyval.sty
+INPUT D:\Programowanie\LATEX\tex\latex\listings\lstpatch.sty
+INPUT D:\Programowanie\LATEX\tex\latex\listings\lstpatch.sty
+INPUT D:\Programowanie\LATEX\tex\latex\listings\lstpatch.sty
+INPUT D:\Programowanie\LATEX\tex\latex\listings\lstmisc.sty
+INPUT D:\Programowanie\LATEX\tex\latex\listings\lstmisc.sty
+INPUT D:\Programowanie\LATEX\tex\latex\listings\lstmisc.sty
+INPUT D:\Programowanie\LATEX\tex\latex\listings\listings.cfg
+INPUT D:\Programowanie\LATEX\tex\latex\listings\listings.cfg
+INPUT D:\Programowanie\LATEX\tex\latex\listings\listings.cfg
+INPUT D:\Programowanie\LATEX\tex\latex\graphics\color.sty
+INPUT D:\Programowanie\LATEX\tex\latex\graphics\color.sty
+INPUT D:\Programowanie\LATEX\tex\latex\graphics-cfg\color.cfg
+INPUT D:\Programowanie\LATEX\tex\latex\graphics-cfg\color.cfg
+INPUT D:\Programowanie\LATEX\tex\latex\graphics-cfg\color.cfg
+INPUT D:\Programowanie\LATEX\tex\latex\graphics-def\pdftex.def
+INPUT D:\Programowanie\LATEX\tex\latex\graphics-def\pdftex.def
+INPUT D:\Programowanie\LATEX\tex\latex\graphics-def\pdftex.def
+INPUT D:\Programowanie\LATEX\tex\latex\graphics\mathcolor.ltx
+INPUT D:\Programowanie\LATEX\tex\latex\graphics\mathcolor.ltx
+INPUT D:\Programowanie\LATEX\tex\latex\graphics\mathcolor.ltx
+INPUT D:\Programowanie\LATEX\tex\latex\amsmath\amsmath.sty
+INPUT D:\Programowanie\LATEX\tex\latex\amsmath\amsmath.sty
+INPUT D:\Programowanie\LATEX\tex\latex\amsmath\amsopn.sty
+INPUT D:\Programowanie\LATEX\tex\latex\amsmath\amstext.sty
+INPUT D:\Programowanie\LATEX\tex\latex\amsmath\amstext.sty
+INPUT D:\Programowanie\LATEX\tex\latex\amsmath\amsgen.sty
+INPUT D:\Programowanie\LATEX\tex\latex\amsmath\amsgen.sty
+INPUT D:\Programowanie\LATEX\tex\latex\amsmath\amsbsy.sty
+INPUT D:\Programowanie\LATEX\tex\latex\amsmath\amsbsy.sty
+INPUT D:\Programowanie\LATEX\tex\latex\amsmath\amsopn.sty
+INPUT D:\Programowanie\LATEX\tex\latex\mathtools\mathtools.sty
+INPUT D:\Programowanie\LATEX\tex\latex\mathtools\mathtools.sty
+INPUT D:\Programowanie\LATEX\tex\latex\tools\calc.sty
+INPUT D:\Programowanie\LATEX\tex\latex\tools\calc.sty
+INPUT D:\Programowanie\LATEX\tex\latex\mathtools\mhsetup.sty
+INPUT D:\Programowanie\LATEX\tex\latex\mathtools\mhsetup.sty
+INPUT D:\Programowanie\LATEX\tex\latex\amsfonts\amsfonts.sty
+INPUT D:\Programowanie\LATEX\tex\latex\amsfonts\amsfonts.sty
+INPUT D:\Programowanie\LATEX\tex\latex\amsfonts\amssymb.sty
+INPUT D:\Programowanie\LATEX\tex\latex\amsfonts\amssymb.sty
+INPUT D:\Programowanie\LATEX\tex\latex\caption\caption.sty
+INPUT D:\Programowanie\LATEX\tex\latex\caption\caption.sty
+INPUT D:\Programowanie\LATEX\tex\latex\caption\caption3.sty
+INPUT D:\Programowanie\LATEX\tex\latex\caption\caption3.sty
+INPUT D:\Programowanie\LATEX\tex\latex\tools\tabularx.sty
+INPUT D:\Programowanie\LATEX\tex\latex\tools\tabularx.sty
+INPUT D:\Programowanie\LATEX\tex\latex\tools\array.sty
+INPUT D:\Programowanie\LATEX\tex\latex\tools\array.sty
+INPUT D:\Programowanie\LATEX\tex\latex\adjustbox\adjustbox.sty
+INPUT D:\Programowanie\LATEX\tex\latex\adjustbox\adjustbox.sty
+INPUT D:\Programowanie\LATEX\tex\latex\xkeyval\xkeyval.sty
+INPUT D:\Programowanie\LATEX\tex\latex\xkeyval\xkeyval.sty
+INPUT D:\Programowanie\LATEX\tex\generic\xkeyval\xkeyval.tex
+INPUT D:\Programowanie\LATEX\tex\generic\xkeyval\xkvutils.tex
+INPUT D:\Programowanie\LATEX\tex\latex\adjustbox\adjcalc.sty
+INPUT D:\Programowanie\LATEX\tex\latex\adjustbox\adjcalc.sty
+INPUT D:\Programowanie\LATEX\tex\latex\adjustbox\trimclip.sty
+INPUT D:\Programowanie\LATEX\tex\latex\adjustbox\trimclip.sty
+INPUT D:\Programowanie\LATEX\tex\latex\graphics\graphicx.sty
+INPUT D:\Programowanie\LATEX\tex\latex\graphics\graphicx.sty
+INPUT D:\Programowanie\LATEX\tex\latex\graphics\graphics.sty
+INPUT D:\Programowanie\LATEX\tex\latex\graphics\graphics.sty
+INPUT D:\Programowanie\LATEX\tex\latex\graphics\trig.sty
+INPUT D:\Programowanie\LATEX\tex\latex\graphics\trig.sty
+INPUT D:\Programowanie\LATEX\tex\latex\graphics-cfg\graphics.cfg
+INPUT D:\Programowanie\LATEX\tex\latex\graphics-cfg\graphics.cfg
+INPUT D:\Programowanie\LATEX\tex\latex\graphics-cfg\graphics.cfg
+INPUT D:\Programowanie\LATEX\tex\latex\collectbox\collectbox.sty
+INPUT D:\Programowanie\LATEX\tex\latex\collectbox\collectbox.sty
+INPUT D:\Programowanie\LATEX\tex\latex\adjustbox\tc-pdftex.def
+INPUT D:\Programowanie\LATEX\tex\latex\adjustbox\tc-pdftex.def
+INPUT D:\Programowanie\LATEX\tex\latex\adjustbox\tc-pdftex.def
+INPUT D:\Programowanie\LATEX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT D:\Programowanie\LATEX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT D:\Programowanie\LATEX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT D:\Programowanie\LATEX\tex\latex\varwidth\varwidth.sty
+INPUT D:\Programowanie\LATEX\tex\latex\varwidth\varwidth.sty
+INPUT D:\Programowanie\LATEX\tex\latex\varwidth\varwidth.sty
+INPUT D:\Programowanie\LATEX\tex\latex\polski\polski.sty
+INPUT D:\Programowanie\LATEX\tex\latex\polski\polski.sty
+INPUT D:\Programowanie\LATEX\tex\latex\polski\ot4cmr.fd
+INPUT D:\Programowanie\LATEX\tex\latex\polski\ot4cmr.fd
+INPUT D:\Programowanie\LATEX\tex\latex\base\ot4enc.def
+INPUT D:\Programowanie\LATEX\tex\latex\polski\ot4cmr.fd
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plr10.tfm
+INPUT D:\Programowanie\LATEX\tex\latex\tools\indentfirst.sty
+INPUT D:\Programowanie\LATEX\tex\latex\tools\indentfirst.sty
+INPUT D:\Programowanie\LATEX\tex\latex\pdfpages\pdfpages.sty
+INPUT D:\Programowanie\LATEX\tex\latex\pdfpages\pdfpages.sty
+INPUT D:\Programowanie\LATEX\tex\latex\base\ifthen.sty
+INPUT D:\Programowanie\LATEX\tex\latex\base\ifthen.sty
+INPUT D:\Programowanie\LATEX\tex\latex\eso-pic\eso-pic.sty
+INPUT D:\Programowanie\LATEX\tex\latex\eso-pic\eso-pic.sty
+INPUT D:\Programowanie\LATEX\tex\latex\pdfpages\pppdftex.def
+INPUT D:\Programowanie\LATEX\tex\latex\pdfpages\pppdftex.def
+INPUT D:\Programowanie\LATEX\tex\latex\pdfpages\pppdftex.def
+INPUT D:\Programowanie\LATEX\tex\latex\float\float.sty
+INPUT D:\Programowanie\LATEX\tex\latex\float\float.sty
+INPUT D:\Programowanie\LATEX\tex\latex\gauss\gauss.sty
+INPUT D:\Programowanie\LATEX\tex\latex\gauss\gauss.sty
+INPUT D:\Programowanie\LATEX\tex\latex\newfloat\newfloat.sty
+INPUT D:\Programowanie\LATEX\tex\latex\newfloat\newfloat.sty
+INPUT D:\Programowanie\LATEX\tex\latex\etoolbox\etoolbox.sty
+INPUT D:\Programowanie\LATEX\tex\latex\etoolbox\etoolbox.sty
+INPUT D:\Programowanie\LATEX\tex\latex\listings\lstlang1.sty
+INPUT D:\Programowanie\LATEX\tex\latex\listings\lstlang1.sty
+INPUT D:\Programowanie\LATEX\tex\latex\listings\lstlang1.sty
+INPUT D:\Programowanie\LATEX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT D:\Programowanie\LATEX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT .\raport7.aux
 INPUT .\raport7.aux
 INPUT raport7.aux
 OUTPUT raport7.aux
-INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plr17.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plr12.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plr8.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plr6.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\polski\omlplm.fd
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\polski\omlplm.fd
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\polski\omlplm.fd
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plmi12.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plmi8.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plmi6.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\polski\omsplsy.fd
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\polski\omsplsy.fd
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\polski\omsplsy.fd
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plsy10.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plsy8.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plsy6.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\polski\omxplex.fd
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\polski\omxplex.fd
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\polski\omxplex.fd
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plex10.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT D:\Programowanie\LATEX\tex\context\base\mkii\supp-pdf.mkii
+INPUT D:\Programowanie\LATEX\tex\context\base\mkii\supp-pdf.mkii
+INPUT D:\Programowanie\LATEX\tex\context\base\mkii\supp-pdf.mkii
+INPUT D:\Programowanie\LATEX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT D:\Programowanie\LATEX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT D:\Programowanie\LATEX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT D:\Programowanie\LATEX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT D:\Programowanie\LATEX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT D:\Programowanie\LATEX\tex\latex\pdflscape\pdflscape.sty
+INPUT D:\Programowanie\LATEX\tex\latex\pdflscape\pdflscape.sty
+INPUT D:\Programowanie\LATEX\tex\latex\pdflscape\pdflscape-nometadata.sty
+INPUT D:\Programowanie\LATEX\tex\latex\pdflscape\pdflscape-nometadata.sty
+INPUT D:\Programowanie\LATEX\tex\generic\iftex\iftex.sty
+INPUT D:\Programowanie\LATEX\tex\generic\iftex\iftex.sty
+INPUT D:\Programowanie\LATEX\tex\latex\graphics\lscape.sty
+INPUT D:\Programowanie\LATEX\tex\latex\graphics\lscape.sty
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plr17.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plr12.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plr8.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plr6.tfm
+INPUT D:\Programowanie\LATEX\tex\latex\polski\omlplm.fd
+INPUT D:\Programowanie\LATEX\tex\latex\polski\omlplm.fd
+INPUT D:\Programowanie\LATEX\tex\latex\polski\omlplm.fd
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plmi12.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plmi8.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plmi6.tfm
+INPUT D:\Programowanie\LATEX\tex\latex\polski\omsplsy.fd
+INPUT D:\Programowanie\LATEX\tex\latex\polski\omsplsy.fd
+INPUT D:\Programowanie\LATEX\tex\latex\polski\omsplsy.fd
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plsy10.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plsy8.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plsy6.tfm
+INPUT D:\Programowanie\LATEX\tex\latex\polski\omxplex.fd
+INPUT D:\Programowanie\LATEX\tex\latex\polski\omxplex.fd
+INPUT D:\Programowanie\LATEX\tex\latex\polski\omxplex.fd
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plex10.tfm
+INPUT D:\Programowanie\LATEX\tex\latex\amsfonts\umsa.fd
+INPUT D:\Programowanie\LATEX\tex\latex\amsfonts\umsa.fd
+INPUT D:\Programowanie\LATEX\tex\latex\amsfonts\umsa.fd
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT D:\Programowanie\LATEX\tex\latex\amsfonts\umsb.fd
+INPUT D:\Programowanie\LATEX\tex\latex\amsfonts\umsb.fd
+INPUT D:\Programowanie\LATEX\tex\latex\amsfonts\umsb.fd
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 OUTPUT raport7.pdf
-INPUT C:\Users\Kuba\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\enc\dvips\pl\plrm.enc
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plr12.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plbx12.tfm
+INPUT C:\Users\My\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT D:\Programowanie\LATEX\fonts\enc\dvips\pl\plrm.enc
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plr12.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plbx12.tfm
 INPUT .\raport7.toc
 INPUT .\raport7.toc
 INPUT raport7.toc
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plbx10.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plbx10.tfm
 OUTPUT raport7.toc
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plr7.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plr5.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plmi10.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plmi7.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plmi5.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plsy10.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plsy7.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plsy5.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\plr9.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\polski\ot4cmtt.fd
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\polski\ot4cmtt.fd
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\tex\latex\polski\ot4cmtt.fd
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\tfm\public\pl\pltt9.tfm
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\enc\dvips\pl\plmi.enc
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\enc\dvips\pl\plms.enc
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\enc\dvips\pl\pltt.enc
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plr7.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plr5.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plmi10.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plmi7.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plmi5.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plsy10.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plsy7.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plsy5.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\plr9.tfm
+INPUT D:\Programowanie\LATEX\tex\latex\polski\ot4cmtt.fd
+INPUT D:\Programowanie\LATEX\tex\latex\polski\ot4cmtt.fd
+INPUT D:\Programowanie\LATEX\tex\latex\polski\ot4cmtt.fd
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\pl\pltt9.tfm
+INPUT D:\Programowanie\LATEX\fonts\enc\dvips\pl\plmi.enc
+INPUT D:\Programowanie\LATEX\fonts\enc\dvips\pl\plms.enc
+INPUT D:\Programowanie\LATEX\fonts\enc\dvips\pl\pltt.enc
 INPUT .\zad1.png
 INPUT .\zad1.png
 INPUT .\zad1.png
@@ -211,7 +211,7 @@ INPUT .\zad1.png
 INPUT .\zad1.png
 INPUT .\zad1.png
 INPUT .\zad1.png
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\enc\dvips\pl\plme.enc
+INPUT D:\Programowanie\LATEX\fonts\enc\dvips\pl\plme.enc
 INPUT .\Zadanie2a-wykres.png
 INPUT .\Zadanie2a-wykres.png
 INPUT .\Zadanie2a-wykres.png
@@ -282,12 +282,12 @@ INPUT .\zad6.jpg
 INPUT .\zad6.jpg
 INPUT .\zad6.jpg
 INPUT .\zad6.jpg
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\ueuf.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\ueuf.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\ueuf.fd
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\euler\eufm10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\euler\eufm7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\euler\eufm5.tfm
+INPUT D:\Programowanie\LATEX\tex\latex\amsfonts\ueuf.fd
+INPUT D:\Programowanie\LATEX\tex\latex\amsfonts\ueuf.fd
+INPUT D:\Programowanie\LATEX\tex\latex\amsfonts\ueuf.fd
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\amsfonts\euler\eufm10.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\amsfonts\euler\eufm7.tfm
+INPUT D:\Programowanie\LATEX\fonts\tfm\public\amsfonts\euler\eufm5.tfm
 INPUT .\zad7.jpg
 INPUT .\zad7.jpg
 INPUT .\zad7.jpg
@@ -296,29 +296,29 @@ INPUT .\zad7.jpg
 INPUT .\zad7.jpg
 INPUT .\zad7.jpg
 INPUT raport7.aux
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\euler\eufm10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\euler\eufm10.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plbx10.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plbx10.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plbx12.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plbx12.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plex10.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plex10.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plmi10.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plmi10.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plmi7.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plmi7.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plr10.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plr10.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plr12.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plr12.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plr17.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plr17.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plr7.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plr7.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plsy10.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plsy10.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plsy7.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\plsy7.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\pltt9.pfb
-INPUT C:\Users\Kuba\AppData\Roaming\MiKTeX\fonts\type1\public\pl\pltt9.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\amsfonts\euler\eufm10.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\amsfonts\euler\eufm10.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\plbx10.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\plbx10.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\plbx12.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\plbx12.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\plex10.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\plex10.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\plmi10.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\plmi10.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\plmi7.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\plmi7.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\plr10.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\plr10.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\plr12.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\plr12.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\plr17.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\plr17.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\plr7.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\plr7.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\plsy10.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\plsy10.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\plsy7.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\plsy7.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\pltt9.pfb
+INPUT D:\Programowanie\LATEX\fonts\type1\public\pl\pltt9.pfb

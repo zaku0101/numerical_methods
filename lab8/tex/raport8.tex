@@ -163,7 +163,115 @@ Wyniki:
 \end{equation}
 
 \section{Zadanie nr. 5}
+Tłumienie fal elektromagnetycznych propagowanej w środowisku pozamiejskim w odległości \( d \) (w kilometrach) od stacji bazowej może być w przybliżeniu opisane modelem:
+\[
+L = 128.3 + 32.5 \log d + c, \quad [\text{dB}]
+\]
+gdzie \( c \sim \mathcal{N}(0, \sigma^2) \) odzwierciedla efekty tłumienia spowodowany przez zjawisko powolnego zanikania (slow fading). Niech \( c = 3 \) oraz \( d = [0.1, 0.2, \ldots, 10] \) [km]. Wykreśl tłumienie \( L \) w funkcji odległości \( d \) dla wybranych \( \sigma \). Następnie dopasuj modele:
+\[
+y = \alpha + \beta \log d, \quad \text{(logarytmiczny)}
+\]
+\[
+y = \alpha + \beta d + \gamma d^2, \quad \text{(kwadratowy)}
+\]
+\[
+y = \alpha + \beta d + \gamma d^2 + \delta d^3, \quad \text{(trzeciego stopnia)}
+\]
+do obserwowanych danych w sensie metryki najmniejszych kwadratów oraz wyznacz parametry \( \{ \alpha, \beta, \gamma, \delta \} \).
+\newline
+
+Do wykonania tego zadania posłużono się pythonem w celu wykreślenia wszystkich. 
+\begin{lstlisting}
+  import numpy as np
+import matplotlib.pyplot as plt
+from scipy.optimize import curve_fit
+
+# Generowanie danych zgodnie z modelem
+c = 3  # Stała wartość c zgodnie z zadaniem
+d = np.arange(0.1, 10.1, 0.1)
+L = 128.3 + 32.51 * np.log10(d) + c  # Dodajemy stałą wartość c
+
+# Definicje modeli
+def log_model(d, alpha, beta):
+    return alpha + beta * np.log10(d)
+
+def quadratic_model(d, alpha, beta, gamma):
+    return alpha + beta * d + gamma * d**2
+
+def cubic_model(d, alpha, beta, gamma, delta):
+    return alpha + beta * d + gamma * d**2 + delta * d**3
+
+# Dopasowanie modeli do danych
+popt_log, _ = curve_fit(log_model, d, L)
+popt_quad, _ = curve_fit(quadratic_model, d, L)
+popt_cubic, _ = curve_fit(cubic_model, d, L)
+
+# Predykcja przy użyciu dopasowanych modeli
+L_log_fit = log_model(d, *popt_log)
+L_quad_fit = quadratic_model(d, *popt_quad)
+L_cubic_fit = cubic_model(d, *popt_cubic)
+
+# Wykres danych i dopasowanych modeli
+plt.figure(figsize=(10, 6))
+plt.scatter(d, L, label='Dane', color='black')
+plt.plot(d, L_log_fit, label='Model logarytmiczny', color='red')
+plt.plot(d, L_quad_fit, label='Model kwadratowy', color='blue')
+plt.plot(d, L_cubic_fit, label='Model trzeciego stopnia', color='green')
+plt.xlabel('Odległość (d) [km]')
+plt.ylabel('Tłumienie (L) [dB]')
+plt.legend()
+plt.title('Dopasowanie modeli tłumienia do danych')
+plt.show()
+
+# Wyświetlenie parametrów
+print("Parametry modelu logarytmicznego: alpha = {:.4f}, beta = {:.4f}".format(*popt_log))
+print("Parametry modelu kwadratowego: alpha = {:.4f}, beta = {:.4f}, gamma = {:.4f}".format(*popt_quad))
+print("Parametry modelu trzeciego stopnia: alpha = {:.4f}, beta = {:.4f}, gamma = {:.4f}, delta = {:.4f}".format(*popt_cubic))
+\end{lstlisting}
+Wykonane wykresy oraz punkty powstały podstawiając do wzoru $L = 128.3 + 32.5logd+c$ za c = 3.
+Powstałe wykresy prezentują się następująco:
+\begin{figure}[h]
+  \includegraphics[scale=0.4]{logar3.png}
+  \title{Rys 5.1 Wykres modelu logarytmicznego dopasowany do danych dla c stałego}
+  \centering
+\end{figure}
+Parametry modelu logarytmicznego: $\alpha = 131.3000, \beta = 32.5100$\newpage
+\begin{figure}[h]
+  \includegraphics[scale=0.4]{kwadrat3.png}
+  \title{Rys 5.2 Wykres modelu kwadratowego dopasowany do danych dla c stałego}
+  \centering
+\end{figure}
+Parametry modelu kwadratowego: $\alpha = 118.8711, \beta = 10.4237, \gamma = -0.6314$\newpage
+\begin{figure}[h]
+  \includegraphics[scale=0.4]{trzy3.png}
+  \title{Rys 5.3 Wykres modelu trzeciego stopnia dopasowany do danych dla c stałego}
+  \centering
+\end{figure}
+Parametry modelu trzeciego stopnia: $\alpha = 111.6540, \beta = 18.7910, \gamma = -2.6923, \delta = 0.1360$ \newpage
 
 
+W momencie gdy za c podstawimy $ \mathcal{N}(0, \sigma^2)$, a za $\sigma =1$ otrzymane wykresy i parametry modeli wyglądają następująco
+\begin{figure}[h]
+  \includegraphics[scale=0.4]{logarN.png}
+  \title{Rys 5.3 Wykres modelu logarytmicznego dopasowany do danych dla\( c \sim \mathcal{N}(0, \sigma^2) \)}
+  \centering
+\end{figure}
+\newline
+Parametry modelu logarytmicznego: $\alpha$ = 128.2009, $\beta$ = 32.6622 \newpage
+\begin{figure}[h]
+  \includegraphics[scale=0.4]{kwadratN.png}
+  \title{Rys 5.3 Wykres modelu kwadratowego dopasowany do danych dla \( c \sim \mathcal{N}(0, \sigma^2) \)}
+  \centering
+\end{figure}
+Parametry modelu kwadratowego: alpha = 115.5702, beta = 10.5278, gamma = -0.6384 \newpage
+\begin{figure}[h]
+  \includegraphics[scale=0.4]{trzyN.png}
+  \title{Rys 5.3 Wykres modelu trzeciego stopnia dopasowany do danych dla \( c \sim \mathcal{N}(0, \sigma^2) \)}
+  \centering
+\end{figure}
+ Parametry modelu trzeciego stopnia: alpha = 108.6487, beta = 18.5524, gamma = -2.6148, delta = 0.1305
 
-\end{document}
+ Dla wartości \( c \sim \mathcal{N}(0, \sigma^2) \) trudniej jest opisać, który z modeli jest dokładniejszy dla podanego zadania.
+ Można jednak zauważyć, że w przypadku modelu logarytmicznego parametry pokrywają się z parametrami funkcji L.
+ Jednak zakładając że c = 3, wartości stają się jeszcze bardziej dokładniejsze. Wychodzi wtedy, że model loarytmiczny idealnie sprawdza się w tym typie zadania, gdzie pozostałe lekko odbiegają od jego poprawności. 
+ \end{document}
