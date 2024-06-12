@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Zadanie nr. 1}{3}{}%
+\contentsline {section}{\numberline {2}Zadanie nr. 2}{5}{}%
+\contentsline {section}{\numberline {3}Zadanie nr. 3}{7}{}%
+\contentsline {section}{\numberline {4}Zadanie nr. 4}{8}{}%
+\contentsline {section}{\numberline {5}Zadanie nr. 5}{9}{}%
+\contentsline {section}{\numberline {6}Zadanie nr. 6}{15}{}%
+\contentsline {section}{\numberline {7}Zadanie nr. 7}{17}{}%
+\contentsline {section}{\numberline {8}Zadanie nr. 8}{19}{}%
+\contentsline {section}{\numberline {9}Zadanie nr. 9}{20}{}%
+\contentsline {section}{\numberline {10}Wnioski}{21}{}%

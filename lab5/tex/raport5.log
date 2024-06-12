@@ -1,0 +1,680 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.16)  29 APR 2024 19:30
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/My/Desktop/II stopień 1 semestr/Metody numeryczne i optymalizacja/statystyka/lab5/lab5_numerical_methods/tex/raport5.tex"
+(c:/Users/My/Desktop/II stopień 1 semestr/Metody numeryczne i optymalizacja/statystyka/lab5/lab5_numerical_methods/tex/raport5.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(D:\Programowanie\LATEX\tex/latex/base\article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(D:\Programowanie\LATEX\tex/latex/base\size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (D:\Programowanie\LATEX\tex/latex/listings\listings.sty (D:\Programowanie\LATEX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+\lst@mode=\count196
+\lst@gtempboxa=\box51
+\lst@token=\toks18
+\lst@length=\count197
+\lst@currlwidth=\dimen141
+\lst@column=\count198
+\lst@pos=\count199
+\lst@lostspace=\dimen142
+\lst@width=\dimen143
+\lst@newlines=\count266
+\lst@lineno=\count267
+\lst@maxwidth=\dimen144
+ (D:\Programowanie\LATEX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2024/02/21 1.10 (Carsten Heinz)
+) (D:\Programowanie\LATEX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
+\c@lstnumber=\count268
+\lst@skipnumbers=\count269
+\lst@framebox=\box52
+) (D:\Programowanie\LATEX\tex/latex/listings\listings.cfg
+File: listings.cfg 2024/02/21 1.10 listings configuration
+))
+Package: listings 2024/02/21 1.10 (Carsten Heinz)
+ (D:\Programowanie\LATEX\tex/latex/graphics\color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+ (D:\Programowanie\LATEX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+ (D:\Programowanie\LATEX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+) (D:\Programowanie\LATEX\tex/latex/graphics\mathcolor.ltx)) (D:\Programowanie\LATEX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(D:\Programowanie\LATEX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (D:\Programowanie\LATEX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen145
+)) (D:\Programowanie\LATEX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen146
+) (D:\Programowanie\LATEX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count270
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count271
+\leftroot@=\count272
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count273
+\DOTSCASE@=\count274
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen147
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count275
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count276
+\dotsspace@=\muskip16
+\c@parentequation=\count277
+\dspbrk@lvl=\count278
+\tag@help=\toks20
+\row@=\count279
+\column@=\count280
+\maxfields@=\count281
+\andhelp@=\toks21
+\eqnshift@=\dimen148
+\alignsep@=\dimen149
+\tagshift@=\dimen150
+\tagwidth@=\dimen151
+\totwidth@=\dimen152
+\lineht@=\dimen153
+\@envbody=\toks22
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (D:\Programowanie\LATEX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2024/03/11 v1.30 mathematical typesetting tools
+ (D:\Programowanie\LATEX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count282
+\calc@Bcount=\count283
+\calc@Adimen=\dimen154
+\calc@Bdimen=\dimen155
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count284
+\calc@Cskip=\skip55
+) (D:\Programowanie\LATEX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count285
+\l_MT_multwidth_dim=\dimen156
+\origjot=\skip56
+\l_MT_shortvdotswithinadjustabove_dim=\dimen157
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen158
+\l_MT_above_intertext_sep=\dimen159
+\l_MT_below_intertext_sep=\dimen160
+\l_MT_above_shortintertext_sep=\dimen161
+\l_MT_below_shortintertext_sep=\dimen162
+\xmathstrut@box=\box55
+\xmathstrut@dim=\dimen163
+) (D:\Programowanie\LATEX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (D:\Programowanie\LATEX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (D:\Programowanie\LATEX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (D:\Programowanie\LATEX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen164
+\captionmargin=\dimen165
+\caption@leftmargin=\dimen166
+\caption@rightmargin=\dimen167
+\caption@width=\dimen168
+\caption@indent=\dimen169
+\caption@parindent=\dimen170
+\caption@hangindent=\dimen171
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count286
+\c@continuedfloat=\count287
+Package caption Info: listings package is loaded.
+) (D:\Programowanie\LATEX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+ (D:\Programowanie\LATEX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen172
+\ar@mcellbox=\box56
+\extrarowheight=\dimen173
+\NC@list=\toks24
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box57
+)
+\TX@col@width=\dimen174
+\TX@old@table=\dimen175
+\TX@old@col=\dimen176
+\TX@target=\dimen177
+\TX@delta=\dimen178
+\TX@cols=\count288
+\TX@ftn=\toks25
+) (D:\Programowanie\LATEX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+ (D:\Programowanie\LATEX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (D:\Programowanie\LATEX\tex/generic/xkeyval\xkeyval.tex (D:\Programowanie\LATEX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+)
+\XKV@depth=\count289
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (D:\Programowanie\LATEX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (D:\Programowanie\LATEX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (D:\Programowanie\LATEX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (D:\Programowanie\LATEX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (D:\Programowanie\LATEX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (D:\Programowanie\LATEX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen179
+\Gin@req@width=\dimen180
+) (D:\Programowanie\LATEX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box58
+)
+\tc@llx=\dimen181
+\tc@lly=\dimen182
+\tc@urx=\dimen183
+\tc@ury=\dimen184
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (D:\Programowanie\LATEX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen185
+\adjbox@Height=\dimen186
+\adjbox@Depth=\dimen187
+\adjbox@Totalheight=\dimen188
+\adjbox@pwidth=\dimen189
+\adjbox@pheight=\dimen190
+\adjbox@pdepth=\dimen191
+\adjbox@ptotalheight=\dimen192
+ (D:\Programowanie\LATEX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count290
+) (D:\Programowanie\LATEX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box59
+\sift@deathcycles=\count291
+\@vwid@loff=\dimen193
+\@vwid@roff=\dimen194
+)) (D:\Programowanie\LATEX\tex/latex/polski\polski.sty
+Package: polski 2021/08/25 v1.3.6 Polish language package
+
+   Switching to Polish text encoding and Polish maths fonts.
+(D:\Programowanie\LATEX\tex/latex/base\ot4enc.def
+File: ot4enc.def 2021/04/29 v2.0v Standard LaTeX file
+Now handling font encoding OT4 ...
+... no UTF-8 mapping file for font encoding OT4
+)
+LaTeX Font Info:    Trying to load font information for OT4+cmr on input line 362.
+ (D:\Programowanie\LATEX\tex/latex/polski\ot4cmr.fd
+File: ot4cmr.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT4/cmr/bx/n on input line 362.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT4/cmss/m/n on input line 362.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT4/cmr/m/it on input line 362.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT4/cmtt/m/n on input line 362.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT4/cmss/bx/n on input line 362.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT4/cmr/bx/it on input line 362.
+LaTeX Font Info:    Encoding `OT1' has changed to `OT4' for symbol font
+(Font)              `operators' in the math version `normal' on input line 362.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT4/cmr/m/n on input line 362.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/plm/m/it on input line 362.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/plsy/m/n on input line 362.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/plex/m/n on input line 362.
+LaTeX Font Info:    Encoding `OT1' has changed to `OT4' for symbol font
+(Font)              `operators' in the math version `bold' on input line 362.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT4/cmr/bx/n on input line 362.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/plm/b/it on input line 362.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/plsy/b/n on input line 362.
+) (D:\Programowanie\LATEX\tex/latex/tools\indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+) (D:\Programowanie\LATEX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2024/01/21 v0.5y Insert pages of external PDF documents (AM)
+ (D:\Programowanie\LATEX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (D:\Programowanie\LATEX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen195
+\ESO@tempdimb=\dimen196
+)
+\AM@pagewidth=\dimen197
+\AM@pageheight=\dimen198
+\AM@fboxrule=\dimen199
+ (D:\Programowanie\LATEX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2024/01/21 v0.5y Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count292
+\AM@pagebox=\box60
+\AM@global@opts=\toks28
+\AM@pagecnt=\count293
+\AM@toc@title=\toks29
+\AM@lof@heading=\toks30
+\c@AM@survey=\count294
+\AM@templatesizebox=\box61
+) (D:\Programowanie\LATEX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count295
+\float@exts=\toks31
+\float@box=\box62
+\@float@everytoks=\toks32
+\@floatcapt=\box63
+) (D:\Programowanie\LATEX\tex/latex/gauss\gauss.sty
+Package: gauss 2003/01/14
+\g@trash=\box64
+\g@matrixbox=\box65
+\g@eastbox=\box66
+\g@northbox=\box67
+\g@label=\box68
+\g@b@tmp=\box69
+\g@b@tmpa=\box70
+\g@b@tmpb=\box71
+\g@maxrow=\count296
+\g@maxcol=\count297
+\g@maxrow@old=\count298
+\g@maxcol@old=\count299
+\g@c@tmp=\count300
+\g@c@tmpa=\count301
+\g@axisHeight=\dimen256
+\g@linethickness=\dimen257
+\g@tab=\dimen258
+\g@arrowht=\dimen259
+\g@arrowwd=\dimen260
+\g@d@tmp=\dimen261
+\g@d@tmpa=\dimen262
+\g@d@tmpb=\dimen263
+\g@d@tmpc=\dimen264
+\g@d@tmpd=\dimen265
+\g@d@tmpe=\dimen266
+\g@loopCount=\count302
+\g@loopEnd=\count303
+\g@loopStep=\count304
+\colarrowsep=\dimen267
+\rowarrowsep=\dimen268
+\opskip=\dimen269
+\labelskip=\dimen270
+\colopminsize=\dimen271
+\rowopminsize=\dimen272
+)
+Package caption Info: Option `declare type' requires the `newfloat' package on input line 18.
+ (D:\Programowanie\LATEX\tex/latex/newfloat\newfloat.sty
+Package: newfloat 2023/10/01 v1.2 Defining new floating environments (AR)
+)
+Package newfloat Info: New float `equ' with options `' on input line 18.
+\c@equ=\count305
+Package newfloat Info: float type `equ'=4 on input line 18.
+ (D:\Programowanie\LATEX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count306
+) (D:\Programowanie\LATEX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/02/21 1.10 listings language file
+) (D:\Programowanie\LATEX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count307
+\l__pdf_internal_box=\box72
+) (raport5.aux)
+\openout1 = `raport5.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+\c@lstlisting=\count308
+ (D:\Programowanie\LATEX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count309
+\scratchdimen=\dimen273
+\scratchbox=\box73
+\nofMPsegments=\count310
+\nofMParguments=\count311
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count312
+\MPscratchDim=\dimen274
+\MPnumerator=\count313
+\makeMPintoPDFobject=\count314
+\everyMPtoPDFconversion=\toks34
+) (D:\Programowanie\LATEX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (D:\Programowanie\LATEX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (D:\Programowanie\LATEX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (D:\Programowanie\LATEX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (D:\Programowanie\LATEX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (D:\Programowanie\LATEX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+Package newfloat Info: `float' package detected.
+LaTeX Font Info:    Trying to load font information for OML+plm on input line 64.
+ (D:\Programowanie\LATEX\tex/latex/polski\omlplm.fd
+File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    Trying to load font information for OMS+plsy on input line 64.
+ (D:\Programowanie\LATEX\tex/latex/polski\omsplsy.fd
+File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    Trying to load font information for OMX+plex on input line 64.
+ (D:\Programowanie\LATEX\tex/latex/polski\omxplex.fd
+File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <12> on input line 64.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <8> on input line 64.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <6> on input line 64.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
+ (D:\Programowanie\LATEX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
+ (D:\Programowanie\LATEX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{C:/Users/My/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{D:/Programowanie/LATEX/fonts/enc/dvips/pl/plrm.enc}] (raport5.toc)
+\tf@toc=\write3
+\openout3 = `raport5.toc'.
+
+ [2]
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <10> on input line 75.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <7> on input line 75.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <5> on input line 75.
+<Zad1.1.png, id=13, 458.46281pt x 250.68657pt>
+File: Zad1.1.png Graphic file (type png)
+<use Zad1.1.png>
+Package pdftex.def Info: Zad1.1.png  used on input line 102.
+(pdftex.def)             Requested size: 517.5pt x 282.9818pt.
+ [3{D:/Programowanie/LATEX/fonts/enc/dvips/pl/plme.enc}{D:/Programowanie/LATEX/fonts/enc/dvips/pl/plmi.enc}{D:/Programowanie/LATEX/fonts/enc/dvips/pl/plms.enc}]
+<Zad1.2.png, id=20, 458.46281pt x 250.68657pt>
+File: Zad1.2.png Graphic file (type png)
+<use Zad1.2.png>
+Package pdftex.def Info: Zad1.2.png  used on input line 109.
+(pdftex.def)             Requested size: 517.5pt x 282.9818pt.
+ [4 <./Zad1.1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 123--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
+
+ []
+
+[5 <./Zad1.2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 137--141
+
+ []
+
+<Resco.png, id=28, 565.36218pt x 413.29407pt>
+File: Resco.png Graphic file (type png)
+<use Resco.png>
+Package pdftex.def Info: Resco.png  used on input line 156.
+(pdftex.def)             Requested size: 395.75082pt x 289.30386pt.
+
+Overfull \hbox (50.75082pt too wide) in paragraph at lines 156--159
+ [][] 
+ []
+
+<Rozco.png, id=29, 560.0925pt x 408.02437pt>
+File: Rozco.png Graphic file (type png)
+<use Rozco.png>
+Package pdftex.def Info: Rozco.png  used on input line 162.
+(pdftex.def)             Requested size: 392.06207pt x 285.61511pt.
+
+Overfull \hbox (47.06207pt too wide) in paragraph at lines 162--165
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Rysunek.png, id=30, 454.69875pt x 250.68657pt>
+File: Rysunek.png Graphic file (type png)
+<use Rysunek.png>
+Package pdftex.def Info: Rysunek.png  used on input line 207.
+(pdftex.def)             Requested size: 517.5pt x 285.31514pt.
+[6] [7 <./Resco.png>]
+Overfull \vbox (80.93025pt too high) has occurred while \output is active []
+
+ [8 <./Rozco.png> <./Rysunek.png>]
+<Rys.png, id=43, 459.21562pt x 250.68657pt>
+File: Rys.png Graphic file (type png)
+<use Rys.png>
+Package pdftex.def Info: Rys.png  used on input line 214.
+(pdftex.def)             Requested size: 517.5pt x 282.51895pt.
+ [9 <./Rys.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 222--228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--232
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--268
+
+ []
+
+<zad4_1.png, id=47, 867.24pt x 578.16pt>
+File: zad4_1.png Graphic file (type png)
+<use zad4_1.png>
+Package pdftex.def Info: zad4_1.png  used on input line 271.
+(pdftex.def)             Requested size: 517.5pt x 345.01959pt.
+[10]
+<zad4_2.png, id=52, 867.24pt x 578.16pt>
+File: zad4_2.png Graphic file (type png)
+<use zad4_2.png>
+Package pdftex.def Info: zad4_2.png  used on input line 276.
+(pdftex.def)             Requested size: 517.5pt x 345.01959pt.
+ [11 <./zad4_1.png>]
+<zad4_3.png, id=57, 867.24pt x 578.16pt>
+File: zad4_3.png Graphic file (type png)
+<use zad4_3.png>
+Package pdftex.def Info: zad4_3.png  used on input line 283.
+(pdftex.def)             Requested size: 517.5pt x 345.01959pt.
+ [12 <./zad4_2.png>]
+<Resco10.png, id=62, 551.81157pt x 395.97937pt>
+File: Resco10.png Graphic file (type png)
+<use Resco10.png>
+Package pdftex.def Info: Resco10.png  used on input line 316.
+(pdftex.def)             Requested size: 517.5pt x 371.39288pt.
+ [13 <./zad4_3.png>]
+<Rezco100.png, id=68, 548.80031pt x 405.76593pt>
+File: Rezco100.png Graphic file (type png)
+<use Rezco100.png>
+Package pdftex.def Info: Rezco100.png  used on input line 322.
+(pdftex.def)             Requested size: 517.5pt x 382.65213pt.
+<Rezco1000.png, id=69, 557.83406pt x 412.54124pt>
+File: Rezco1000.png Graphic file (type png)
+<use Rezco1000.png>
+Package pdftex.def Info: Rezco1000.png  used on input line 328.
+(pdftex.def)             Requested size: 517.5pt x 382.72145pt.
+ [14 <./Resco10.png>] [15 <./Rezco100.png>]
+<Rozco10.png, id=76, 544.28343pt x 404.26031pt>
+File: Rozco10.png Graphic file (type png)
+<use Rozco10.png>
+Package pdftex.def Info: Rozco10.png  used on input line 336.
+(pdftex.def)             Requested size: 517.5pt x 384.38438pt.
+<Rozco100.png, id=77, 567.62062pt x 405.01312pt>
+File: Rozco100.png Graphic file (type png)
+<use Rozco100.png>
+Package pdftex.def Info: Rozco100.png  used on input line 342.
+(pdftex.def)             Requested size: 517.5pt x 369.28555pt.
+ [16 <./Rezco1000.png>]
+<Rozco1000.png, id=81, 569.12625pt x 421.575pt>
+File: Rozco1000.png Graphic file (type png)
+<use Rozco1000.png>
+Package pdftex.def Info: Rozco1000.png  used on input line 348.
+(pdftex.def)             Requested size: 517.5pt x 383.3701pt.
+ [17 <./Rozco10.png>] [18 <./Rozco100.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 354--358
+
+ []
+
+[19 <./Rozco1000.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 361--367
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--367
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--372
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--378
+
+ []
+
+<zad6_1.png, id=92, 867.24pt x 578.16pt>
+File: zad6_1.png Graphic file (type png)
+<use zad6_1.png>
+Package pdftex.def Info: zad6_1.png  used on input line 385.
+(pdftex.def)             Requested size: 517.5pt x 345.01959pt.
+[20]
+<zad6_2.png, id=96, 867.24pt x 578.16pt>
+File: zad6_2.png Graphic file (type png)
+<use zad6_2.png>
+Package pdftex.def Info: zad6_2.png  used on input line 392.
+(pdftex.def)             Requested size: 517.5pt x 345.01959pt.
+ [21 <./zad6_1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
+
+ []
+
+[22 <./zad6_2.png>]
+LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line 416.
+ (D:\Programowanie\LATEX\tex/latex/polski\ot4cmtt.fd
+File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+) [23{D:/Programowanie/LATEX/fonts/enc/dvips/pl/pltt.enc}] [24]
+
+Package caption Warning: Unused \captionsetup[equ] on input line 19.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: Unused \captionsetup[Tabela] on input line 104.
+See the caption package documentation for explanation.
+
+[25] (raport5.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 9436 strings out of 474435
+ 150483 string characters out of 5752260
+ 2036190 words of memory out of 5000000
+ 31607 multiletter control sequences out of 15000+600000
+ 570479 words of font info for 73 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 86i,11n,93p,798b,957s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<D:/Programowanie/LATEX/fonts/type1/public/pl/plbx10.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plbx12.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plex10.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plmi10.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plmi7.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plr10.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plr12.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plr17.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plr7.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plsy10.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/plsy7.pfb><D:/Programowanie/LATEX/fonts/type1/public/pl/pltt9.pfb>
+Output written on raport5.pdf (25 pages, 1041523 bytes).
+PDF statistics:
+ 171 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+
